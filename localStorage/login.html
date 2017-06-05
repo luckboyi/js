@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vronline2.0</title>
+    <link rel="stylesheet" href="./style/base.css">    
+    <link rel="stylesheet" href="./style/3dbobo.css">
+    <script type="text/javascript" src="./js/plugin/jquery-1.12.3.min.js"></script> 
+    <script src="./js/tool/interface.js"></script>
+	<script src="./js/tool/platform.js"></script>
+    <script type="text/javascript" src="./js/plugin/public.js"></script>
+    <style>
+        .login_group .triangle{
+            left:94%;
+            top:8%;
+        }
+        .login_group ul{width: 224px;border: 2px solid #535874; display: none;}
+        .login_group ul li{
+            line-height: 38px;
+            width: 100%;
+            background: #0d3149;
+            color: #fff;
+            text-indent: 10px;
+            border-bottom: 1px solid #535874;
+        }
+        .login_group .account_del{
+            background-position: -142px -302px;
+            top:42%;
+            transform:scale(0.6) translateY(-50%);
+            right: 6px;
+        }
+        .history_code li:hover{
+            background: #1e90ff;
+        }
+    </style>
+</head>
+<body>
+<div class="login" style="display:none">
+    <div class="login_top"  style=" -webkit-app-region: drag;"><img src="images/logo.png" width="67" height="21">
+        <ul class="fr" style="-webkit-app-region: no-drag;z-index: 1;">
+            <li class="login_icon login_min_icon"></li>
+            <li class="login_icon login_windowclose_icon"></li>
+        </ul>
+    </div>
+    <div class="login_con">
+        <!--账号登录-->
+        <div class="login_box fr login-account" style="display: none">
+            <span class="fr login_text" onclick="goTo('login','mobile')">短信快捷登录</span>
+            <form>
+                <div class="login_group pr">
+                    <input type="text" class="vr-name" placeholder="输入VRonline账号或手机号" >
+                    <i class="triangle pa cp"></i>
+                    <ul class="pa history_code">
+                        
+                    </ul>
+                </div>
+                <div class="login_group">
+                    <input type="password" class="vr-passwd" placeholder="输入密码">
+                </div>
+                <div class="login_group login_checkbox">
+                    <label>
+                        <input type="checkbox" class="login-save-pwd">保存密码</label><span class="fr" onclick="goTo('reg','forget')">忘记密码？</span></div>
+                <div class="login_group login_sign_in tac f14">
+                    <button type="button" onclick="loginFn('common')">登录</button>
+                </div>
+            </form>
+            <div class="login_other"><span class="fl">其他方式：</span>
+                <a href="javascript:otherLogin('qqlogin')" title="QQ" class="login_icon qq"></a>
+                <a href="javascript:otherLogin('wxlogin')" title="微信" class="login_icon weixin"></a>
+                <a href="javascript:otherLogin('bblogin')" title="3D播播" class="login_icon bo"></a>
+                <a href="javascript:otherLogin('wblogin')" title="微博" class="login_icon weibo"></a><span class="fr login_reg">注册</span></div>
+        </div>
+        <!--账号登录end-->
+        <!--验证码登录-->
+        <div class="login_box fr login-mobile" style="display:none" >
+            <span class="fr login_text" onclick="goTo('login','account')">账号登录</span>
+            <form class="loginform">
+                <div class="login_group">
+                    <input type="text" class="reg-mobile-num" placeholder="请输入手机号码" maxlength="11">
+                </div>
+                <div class="login_group pr">
+                    <input type="text" class="reg-mobile-code" placeholder="请输入验证码">
+                    <button type="button" class="pa login_code reg-mobile-code-btn" onclick="reg.getCode('login')">获取验证码</button>
+                </div>
+                <div class="login_group login_checkbox"></div>
+                <div class="login_group login_sign_in tac f14">
+                    <button type="button" onclick="loginFn('mobile')">登录</button>
+                </div>
+            </form>
+            <div class="login_other"><span class="fl">其他方式：</span>
+                <a href="javascript:otherLogin('qqlogin')" title="QQ" class="login_icon qq"></a>
+                <a href="javascript:otherLogin('wxlogin')" title="微信" class="login_icon weixin"></a>
+                <a href="javascript:otherLogin('bblogin')" title="3D播播" class="login_icon bo"></a>
+                <a href="javascript:otherLogin('wblogin')" title="微博" class="login_icon weibo"></a><span class="fr login_reg">注册</span></div>
+        </div>
+        <!--验证码登录end-->
+        <!--登录中-->
+        <div class="login_box fr login-loading" style="display:none">
+            <div class="login_loading"><img src="images/loading.gif" width="32" height="32">
+                <br><span class="f18 tac">正在登录，请稍等...</span></div>
+        </div>
+        <!--登录中end-->
+    </div>
+</div>
+
+<div class="reg" style="display:none">
+    <div class="reg_top"><span class="fl f18">注册账号</span>
+        <ul class="fr">
+            <li class="login_icon login_min_icon"></li>
+            <li class="login_icon login_windowclose_icon"></li>
+        </ul>
+    </div>
+    <div>
+    <!--注册账号 第一步-->
+    <div class="reg_con reg-mobile" >
+        <form class="regform">
+            <div class="login_group">
+                <input type="text" class="reg-mobile-num" placeholder="请输入手机号码" maxlength="11">
+            </div>
+            <div class="login_group pr">
+                <input type="text" class="reg-mobile-code" placeholder="请输入验证码">
+                <button type="button" class="pa login_code reg-mobile-code-btn" onclick="reg.getCode('reg')">获取验证码</button>
+                <br><span class="red reg_tips">&nbsp;</span></div>
+            <div class="login_group login_sign_in tac f14">
+                <button type="button" onclick="reg.getToken('reg')">下一步</button>
+            </div>
+            <div class="login_group login_checkbox">
+                <span class="fr login_login">已有账号，登录&gt;</span></div>
+        </form>
+    </div>
+    <!--注册账号 第一步 end-->
+    <!--注册账号 第二步-->
+    <div class="reg_con reg-passwd" style="display:none">
+        <form class="regform">
+            <div class="login_group">
+                <input type="password" class="reg-mobile-pwd" placeholder="请输入6-12位的密码">
+                <br><span class="red reg_tips">&nbsp;</span></div>
+            <div class="login_group">
+                <input type="password" class="reg-mobile-repwd" placeholder="请确认密码">
+                <br><span class="red reg_tips">&nbsp;</span></div>
+            <div class="login_group login_sign_in tac f14">
+                <button type="button" onclick="reg.submit('reg')">注册</button>
+            </div>
+            <div class="login_group login_checkbox">
+                <label>
+                    <input type="checkbox" class="reg-agree"><span onclick="openAgree()">同意《VRonline用户注册协议》</span></label><span class="fr login_login">已有账号，登录></span></div>
+        </form>
+    </div>
+    <!--注册账号 第二步 end-->
+    <!--绑定手机-->
+    <div class="reg_con reg-bind" style="display:none">
+        <form>
+            <div class="login_group">
+                <input type="text" class="" placeholder="手机号码">
+            </div>
+            <div class="login_group pr">
+                <input type="text" class="" placeholder="验证码">
+                <button type="button" class="pa login_code">短信验证码</button>
+                <br><span class="red reg_tips">短信验证码错误，请重新输入。</span></div>
+            <div class="login_group login_sign_in tac f14">
+                <button type="button">绑定</button>
+            </div>
+        </form>
+    </div>
+    <!--绑定手机end-->
+    <!--密码找回 第一步-->
+    <div class="reg_con reg-forget" style="display:none;padding-top:25px">
+        <form class="forgetform">
+            <div class="login_group">
+                <input type="text" class="reg-mobile-num" placeholder="请输入手机号码" maxlength="11">
+            </div>
+            <div class="login_group pr">
+                <input type="text" class="reg-mobile-code" placeholder="请输入验证码">
+                <button type="button" class="pa login_code reg-mobile-code-btn" onclick="reg.getCode('forget')">获取验证码</button>
+                </div>
+            <div class="login_group">
+                <input type="password" class="reg-mobile-pwd"  placeholder="请输入新登录密码">
+           </div>
+            <div class="login_group">
+                <input type="password" class="reg-mobile-repwd" placeholder="请再次输入登录密码">
+                </div>
+            <div class="login_group login_sign_in tac f14">
+                <button type="button" onclick="reg.submit('forget')">确定</button>
+            </div>
+             <div class="login_group login_checkbox">
+                <span class="fr login_login">返回登录&gt;</span></div>
+        </form>
+    </div>
+    </div>
+</div>
+
+<iframe id="login" src="http://www.vronline.com/vrhelp/login" style="width: 0;height:0;display: hidden;border:0"></iframe>
+
+<script type="text/javascript">
+var params = {
+	page:getUrlHash('page','login'),
+	modal:getUrlHash('modal','account')
+};
+
+window.onhashchange = function(){
+	params.page = getUrlHash('page','login')
+	params.modal = getUrlHash('modal','account')
+	loadLogin();
+}
+
+
+window.addEventListener('message', function(event){
+   if(typeof(event.data)=="object") {
+    var res = event.data
+    if(typeof(res.tp)!="undefined") {
+        switch (res.tp) {
+            case "login_ok":
+                if(typeof(res.data.save)!="undefined" && res.data.save==true) {
+                    var accounts = pubdb.get('account');
+                    if(typeof(accounts)=="undefined") {
+                       accounts = {};
+                    }
+                    accounts[res.data.account] = {'account':res.data.account,'pwd':res.data.pwd};
+                    pubdb.set('account',accounts);
+                    loadAccount();
+                }
+                var client_json = {
+                    code:0,
+                    logintype:0,
+                    account:res.data.account,
+                    mobile:"",
+                    userid:res.data.uid,
+                    nick:res.data.nick,
+                    headimage:res.data.face
+                }
+                console.log(client_json)
+                PL.callFun('newloginframe', 'loginres',JSON.stringify(client_json));
+                goTo('login','loading');
+            break;
+            case "login_err":
+                loiNotifly(res.data.msg);
+            break;
+        }
+    }
+   }
+}, false);
+
+$(function() {
+    loadBg();
+    loadLogin();
+    loadAccount();
+    $(".login_reg").click(function(){
+        goTo('reg','mobile')
+    })
+    $(".login_login").click(function(){
+        goTo('login','account')
+    })
+    $(".login_windowclose_icon").click(function(){
+        PL.callFun('common', 'close','');
+    })
+    $(".login_min_icon").click(function(){
+        PL.callFun('common', 'min','');
+    });
+
+    $(document).on('click','.triangle',function() {
+        if($('.history_code').find('li').length >0){
+            $(this).next('ul').toggle();
+        }
+    });
+    $(document).on('click','.history_code li',function(){
+        var ac = $(this).find('b').html();
+        $('.vr-name').val(ac);
+        var accounts = pubdb.get('account');
+        if(typeof(accounts)!="undefined" && typeof(accounts[ac])!="undefined") {
+            $('.vr-passwd').val(accounts[ac]['pwd'])
+        }
+        
+        $('.history_code').toggle();
+    })
+    $(document).on('click','.account_del',function(){
+        var ac = $(this).parent().attr('data-val');
+        var accounts = pubdb.get('account');
+        if(typeof(accounts)!="undefined" && typeof(accounts[ac])!="undefined") {
+            delete(accounts[ac])
+            pubdb.set('account',accounts);
+            $(this).parent().detach();
+        }
+    })
+})
+
+
+
+function loadAccount() {
+    var accounts = pubdb.get('account');
+    if(typeof(accounts)=="undefined") {
+        return;
+    }
+    var html = ''
+    $.each(accounts,function(a,b){
+        html = html+'<li class="cp pr" data-val="'+b.account+'"><b>'+b.account+'</b><i class="login_icon account_del pa"></i></li>'
+    })
+    if(html) {
+        $('.history_code').html(html);
+        $('.triangle').show();
+    } else {
+        $('.triangle').hide();
+    }
+   
+}
+
+function loadBg() {
+    var localBg = pubdb.get('loginbg')
+    if(typeof(localBg)!="undefined") {
+        $('.login_con').css('background',localBg)
+    }
+    $.get('http://www.vronline.com/vrhelp/logintop',function(res){
+        if(res.code==0) {
+            if(typeof(localBg)!="undefined") {
+               if(localBg!=res.data.logo) {
+                    pubdb.set('loginbg',res.data.logo)
+                  $('.login_con').css('background',localBg)
+               }
+            } else {
+                pubdb.set('loginbg',res.data.logo)
+                $('.login_con').css('background',localBg)
+            }
+        }
+    },"json")
+}
+
+function loadLogin() {
+	if(params.modal=="forget") {
+		$('.reg_top .fl.f18').text('重置密码')
+	} else if(params.page=="reg" && params.modal=="mobile") {
+		$('.reg_top .fl.f18').text('注册账号')
+	}
+	$('.'+params.page).show().siblings().hide();
+	$('.'+params.page+"-"+params.modal).show().siblings().hide();
+    $('.'+params.page).find('input').each(function(){
+        $(this).val('')
+    })
+}
+
+var reg = {
+	token:'',
+	mobile:'',
+	getCode:function(tp) {
+		var mobile = $('.'+tp+'form .reg-mobile-num').val();
+		var verify = new loiValidator();
+   		var ck = verify.check('mobileCN',mobile);
+   		if(ck==false) {
+			loiNotifly(verify.errorMsg());
+			return ;
+   		}
+        var sec = 60
+	 	$('.'+tp+'form .reg-mobile-code-btn').attr('disabled',true)
+        $('.'+tp+'form .reg-mobile-code-btn').text(sec+"s后获取")
+		var wait =  setInterval(function(){
+			sec--
+            $('.'+tp+'form .reg-mobile-code-btn').text(sec+"s后获取")
+			if(sec<=0) {
+				clearInterval(wait)
+				$('.'+tp+'form .reg-mobile-code-btn').text("获取验证码")
+				$('.'+tp+'form .reg-mobile-code-btn').attr('disabled',false)
+			}
+		},1000)
+        if(tp=="reg") {
+            $.post('http://passport.vronline.com/reg/mobile/getcode',{mobile:mobile},function(res){
+                if(res.code==0) {
+                    loiNotifly("获取验证码成功");
+                } else {
+                    loiNotifly(res.msg);
+                }
+            },'json')
+        } else if(tp=="forget"){
+             $.get('http://www.vronline.com/ajax/sendFindCode',{account:mobile,mobile:mobile},function(res){
+                if(res.code==0) {
+                    loiNotifly("获取验证码成功");
+                } else {
+                    loiNotifly(res.msg);
+                }
+            },'json')
+        } else if(tp=="login") {
+             $.post('http://passport.vronline.com/reg/mobile/getcode',{mobile:mobile,type:'login'},function(res){
+                if(res.code==0) {
+                    loiNotifly("获取验证码成功");
+                } else {
+                    loiNotifly(res.msg);
+                }
+            },'json')
+        }
+	},
+	getToken:function(tp) {
+		var mobile = $('.'+tp+'form .reg-mobile-num').val();
+		var code =  $('.'+tp+'form .reg-mobile-code').val();
+		var verify = new loiValidator();
+   		var ck = verify.check('mobileCN',mobile);
+   		if(ck==false) {
+			loiNotifly(verify.errorMsg());
+			return ;
+   		}
+   		if(code=="" || code.length!=6) {
+   			loiNotifly("验证码错误");
+			return ;
+   		}
+   		var that = this
+		$.post('http://passport.vronline.com/reg/mobile/gettoken',{mobile:mobile,code:code},function(res){
+			 if(res.code==0) {
+			 	that.token = res.data.token
+			 	that.mobile = mobile;
+			 	goTo('reg','passwd')
+			 } else {
+			 	loiNotifly("获取token失败");
+				return ;
+			 }
+		},"json")
+	},
+	submit:function(tp){
+        var pwd = $('.'+tp+'form .reg-mobile-pwd').val();
+        var repwd  = $('.'+tp+'form .reg-mobile-repwd').val();
+        if (pwd.length<6) {
+            loiNotifly("请输入正确格式的密码");
+            return ;
+        }
+        if( pwd != repwd) {
+            loiNotifly("2次输入的密码不相同");
+            return ;
+        }
+        if(tp=="reg") {
+            var mobile = this.mobile;
+            var token  = this.token;
+            if(!mobile || !token) {
+                loiNotifly("请返回上一步重新注册",1000,function(){
+                    goTo('reg','mobile');
+                });
+                return ;
+            }
+            var ck = $('.reg-agree').prop('checked');
+            if(ck==false) {
+                loiNotifly("请同意注册协议");
+                return ;
+            }
+            $.post('http://passport.vronline.com/reg/mobile/reg',{mobile:mobile,token:token,pwd:md5(pwd)},function(res){
+            if(res.code==0) {
+                loiNotifly("注册成功",1000,function(){
+                    goTo('login','account');
+                });
+            } else {
+                loiNotifly(res.msg,3000,function(){
+                     goTo('reg','mobile');
+                });
+            }
+         },"json")
+        } else {
+            var mobile = $('.'+tp+'form .reg-mobile-num').val();
+            var code =  $('.'+tp+'form .reg-mobile-code').val();
+            var verify = new loiValidator();
+            var ck = verify.check('mobileCN',mobile);
+            if(ck==false) {
+                loiNotifly(verify.errorMsg());
+                return ;
+            }
+            if(code=="" || code.length!=6) {
+                loiNotifly("验证码错误");
+                return ;
+            }
+             $.get('http://www.vronline.com/ajax/resetPwd',{account:mobile,pwd:pwd,code:code},function(res){
+                if(res.code==0) {
+                    loiNotifly("重新设置密码成功,即将返回登录窗口",2000,function(){
+                        goTo('login','account');
+                    });
+                } else {
+                    loiNotifly(res.msg);
+                }
+            },'json')
+        }
+	}
+}
+
+function goTo(page,modal) {
+	location.href = location.origin+location.pathname+"#page="+page+"&modal="+modal
+}
+
+function otherLogin(tp) {
+    PL.callFun('newloginframe', tp, 'http://passport.vronline.com/auth/qq?url=vr_windows');
+}
+
+function loginFn(tp){
+     var frame = $('#login')[0].contentWindow;
+    if(tp=="mobile") {
+    	var login_in = {
+	        'mobile':'',
+	        'sms':'',
+            'client':'mobile'
+    	}
+    	login_in.mobile = $('.loginform .reg-mobile-num').val();
+	    login_in.sms = $('.loginform .reg-mobile-code').val();
+    	var verify = new loiValidator();
+   		var ck = verify.check('mobileCN',login_in.mobile);
+   		if(ck==false) {
+			loiNotifly(verify.errorMsg());
+			return ;
+   		}
+   		if(login_in.sms=="" || login_in.sms.length!=6) {
+			loiNotifly("验证码错误");
+			return ;
+        }
+       
+        frame.postMessage({tp:"login",data:login_in},'*');
+    } else {
+    	var login_in = {
+	        'account':'',
+	        'pwd':'',
+	        'keeploginstate':'',
+            'client':'common'
+    	}
+    	login_in.account = $('.vr-name').val();
+	    login_in.pwd =$('.vr-passwd').val();
+	    if(login_in.account=='' || login_in.account.length<4) {
+	    	loiNotifly("请输入正确的账号");
+	    	return ;
+	    }
+	    if(login_in.pwd=='' || login_in.pwd.length<4) {
+	    	loiNotifly("请输入正确的密码");
+	    	return ;
+	    }
+	    var ck = $('.login-save-pwd').prop('checked');
+	    login_in.keeploginstate = ck==true?1:0
+        frame.postMessage({tp:"login",data:login_in},'*');
+    }
+}
+
+function openAgree() {
+	var json = {
+        url:'http://www.vronline.com/user_agreement'
+    };
+    PL.callFun('common', 'openurl', JSON.stringify(json));
+}
+</script>
+</body>
+</html>

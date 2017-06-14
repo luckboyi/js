@@ -1,0 +1,302 @@
+/*公共样式*/
+
+/*个人注册样式*/
+.personal{
+	
+}
+.personal header{
+	height:48px;
+	background-color:#262626;
+}
+.personal header div{
+	width:1200px;
+	margin:0 auto;
+}
+.personal header div img{
+	display:block;
+	padding:8px 0;
+	height:32px;
+}
+.personal .sec{
+	width:1200px;
+	margin:0 auto;
+}
+.personal .sec .state{
+	padding-top:50px;
+}
+.personal .sec .state span{
+	line-height:34px;
+}
+.personal .first_step,.second_step,.third_step{           /*验证步骤*/ 
+	display:block;
+	width:222px;
+	height:34px;
+	color:#949494;
+	text-align:center;
+	background:url(../images/personal.png) no-repeat -20px -63px;  /*无颜色部分*/ 
+}
+.personal .first_step{
+	color:#FFFFFF;
+	background:url(../images/personal.png) no-repeat -20px -20px;   /*有颜色部分*/ 
+}
+.personal .line{
+	margin:0 10px;	
+	color:#949494;
+}
+.personal .sec .account{
+	margin-top:38px;
+	padding:26px 20px;
+	background-color:#FFFFFF;
+	color:#717171;
+}
+.personal .icon{
+	display:none;
+	width:20px;
+	height:20px;
+	position:relative;
+	top:5px;
+	background:url(../images/personal.png) no-repeat -20px -250px;
+}
+.personal .title{
+	padding-bottom:10px;
+	border-bottom:1px solid #eeeeee;
+	margin-bottom:24px;
+}
+.personal .sec .account div{
+	line-height:52px;
+}
+.personal .sec .account div a{
+	color:#03a9f4;
+}
+.personal .dt{
+	padding-right:50px;
+}
+.personal .prompt{
+	display: none;
+	margin-left:42px;
+	padding-left:20px;
+	background:url(../images/personal.png) no-repeat -20px -153px;
+}
+.personal .btn{
+	width:78px;
+	height:26px;
+	margin-left:20px;
+	padding-left:20px;
+	outline: none;
+	background:url(../images/personal.png) no-repeat -15px -272px;
+}
+.personal .message{
+	margin-top:38px;
+	padding:26px 20px 260px 20px;
+	background-color:#FFFFFF;
+	color:#717171;
+}
+.personal table{
+	position:relative;
+	padding-top:15px;
+}
+.personal table td span{
+	line-height:52px;
+}
+.personal table input{
+	position:absolute;
+	left:140px;
+	width:370px;
+	height:36px;
+	padding-left:10px;
+	margin-top:-8px;
+	border:1px solid #dadada;
+}
+.personal table .prompt{
+	position:absolute;
+	left:510px;
+	width:400px;
+	line-height:22px;
+}
+.personal table tr{
+	height:60px;
+	padding:30px 0;
+}
+.personal .address{
+	margin-bottom:80px;
+}
+.personal td .td_name{
+	position:relative;
+	top:8px;
+}
+.personal td .error{
+	display:none;
+	position:relative;
+	top:30px;
+	font-size:12px;
+	color:red;
+	padding-left:4px;
+}
+.personal .ads{
+	left:400px;
+	margin-top:-30px;
+	padding-bottom:14px;
+}
+.personal .pic_error{
+	left:150px;
+	top:111px!important;
+}
+.personal .errorShow{
+	display:block;
+}
+.personal select{
+	width:182px;
+	height:30px;
+	border-radius:2px;
+	margin-top:-6px;
+}
+.personal textarea{
+	position:absolute;
+	left:140px;
+	width:360px;
+	height:50px;
+	padding:10px;
+	margin-top:36px;
+}
+.personal .sel1{
+	position:absolute;
+	left:140px;
+}
+.personal .sel2{
+	position:absolute;
+	left:340px;
+}
+.personal .pic{
+	position:absolute;
+	left:140px;
+	width:130px;
+	height:130px;
+	border:1px dashed #000;
+	margin-top:110px;
+	background:url(../images/personal.png) no-repeat -20px -400px;
+}
+.personal .pic span{
+	display:block;
+	width:50px;
+	height:42px;
+	margin:0 auto;
+	margin-top:35px;
+	background:url(../images/personal.png) no-repeat -20px -106px;
+}
+.personal .pic p{
+	text-align: center;
+	font-size:14px;
+	color:#4ac1d2;
+	text-decoration: underline;
+}
+.personal .mind{
+	padding-top:60px;
+	width:620px;
+	position:relative;
+	top:210px;
+}
+.personal .mind p{
+	line-height: 32px;
+}
+.personal .mind a{
+	color:#03a9f4;
+}
+.personal .sub{
+	padding-top:20px;
+}
+.personal .sub a{
+	text-decoration: none;
+	color:#03a9f4;
+}
+.personal .sub .accept{
+	text-align: center;
+	color:#717171
+}
+.show{
+	display:inline-block;
+	width:12px;
+	height:12px;
+	background:url(../images/personal.png) no-repeat -20px -319px;
+}
+.personal .sub .sub_btn{
+	width:510px;
+	margin:38px auto;
+}
+.personal .sub_btn input{
+	width:198px;
+	height:40px;
+	border:none;
+	border-radius:2px;
+	background-color:#4ac1d2;
+	color:#FFFFFF;
+	font-size:16px;
+	text-align:center;
+	line-height:40px;
+	margin:0 25px;
+}
+.personal footer{
+	background:#e1e1e1;
+	text-align: center;
+	color:#bebebf;
+	padding:45px 0;
+}
+.personal footer a{
+	text-decoration:none;
+	color:#bebebf;
+}
+.personal footer .cooperate{
+	width:1200px;
+	margin:0 auto;
+	margin-bottom:20px;
+}
+/*第二步    register2.html*/
+.personal .send{
+	width:1200px;
+	padding:200px 0;
+	height:324px;
+	background:#FFFFFF;
+	margin-top:30px;
+	text-align: center;
+	color:#3D4A5D;
+}
+.personal strong{
+	color:#4ac1d2;
+}
+.personal .send .sub_btn{
+	padding-top:50px;
+}
+.personal .send .sub_btn .cxfs{
+	background:#f7f7f7;
+	border:1px solid #dadada;
+	color:#717171;
+}
+.personal .finish{
+	display:inline-block;
+	padding-left:60px;
+	height:45px;
+	line-height:45px;
+	font-size:24px;
+	color:#4ac1d2;
+	background:url(../images/personal.png) no-repeat -20px -191px;
+}
+.personal .send p{
+	padding-top:18px;
+}
+.personal .send a{
+	color:#03a9f4;
+}
+.sec_which_peo{
+	color: #4d4d4d;
+	margin:150px 0 90px 0;
+}
+.sec_which_con{
+	margin-bottom: 300px;
+}
+.sec_which_con a{
+	display: inline-block;
+	width: 300px;
+	height: 350px;
+	background: url("../images/icon.png") no-repeat 0 -410px;
+	margin: 0 50px;
+}
+.sec_which_con a.company{background-position: -300px -410px;  }

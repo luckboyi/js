@@ -1,0 +1,70 @@
+.home_header{width: 100%;height: 530px; background: url("../images/bg.png") no-repeat center;color: #efeff3;}
+.home_container{width: 1200px; margin: 0 auto;height: 530px;}
+.home_container .information{
+    left: 15%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+.home_container .information p{
+    line-height: 42px;
+}
+.home_container .login{
+    padding: 20px 35px 54px;
+    width: 240px;
+    height: 230px;
+    right: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    background: rgba(223,210,226,.2);
+    border-radius: 5px;
+}
+.login_in{display: none;}
+.login_in span.user_img{
+    width: 88px;
+    height: 88px;
+    display: inline-block;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    margin:16px 0;
+}
+.login_in .user_name{margin-bottom: 18px;}
+.login_in span.user_img img{width: 100%;height: 100%;border-radius: 50px;}
+.home_container .login h3{line-height: 42px;}
+.home_container .login input{width: 240px;text-indent: 10px; line-height: 34px;border: none; background:rgba(65,59,65,.3);border-radius: 2px;margin:10px 0;color: #efeff3; }
+.home_container .login .rem_psw{line-height: 24px;padding-left:20px;font-size: 12px ; color: #d1d0d0;margin-bottom: 10px;}
+.home_container .login .rem_psw i{width: 14px;height: 14px; background:url("../images/icon.png") no-repeat 0 -357px;
+    position: absolute;top:50%;margin-top: -6px;left: 0;}
+.home_container .login .btn span{line-height: 34px; width: 110px;background: #5c9df5;display: inline-block; text-align: center;border-radius: 2px;
+    cursor: pointer;}
+.home_container .login .btn span:nth-child(2){background: #ed6348; margin-left:14px;}
+.home_container .login_in .btn.login_btn span{background: #9991a2;}
+.home_con{width: 1200px; margin: 30px auto; }
+.home_con ul{width: 1320px;}
+.home_con ul li{
+    width: 327px;
+    height: 400px;
+    color: #949494;
+    background: url("../images/icon.png") no-repeat -510px -2px;
+    margin-left: -22px;
+}
+.home_con ul li span{
+    margin-top: 50px;
+    width: 125px;
+    height: 195px;
+    display: inline-block;
+    background: url("../images/icon.png") no-repeat 0 -158px;
+}
+.home_con ul li p.f26{color: #4d4d4d;line-height: 42px;margin-top: 12px;}
+.home_con ul li p.text{line-height: 24px;}
+.foot_contain{width: 100%;height: 92px; background: #e2e1e1;padding-top: 40px;color: #b5b5b6;}
+.foot_contain p.company{margin: 0  0 20px 0;}
+.foot_contain a{padding: 0 10px; color: #b5b5b6;}
+.foot_contain .con a{padding: 0 2px;}
+
+

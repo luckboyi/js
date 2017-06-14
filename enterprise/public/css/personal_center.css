@@ -1,0 +1,492 @@
+.textOver {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  overflow: hidden; }
+
+.center, .personal_center .right_per .user_msg .user_header p i.edit, .personal_center .right_per .user_msg .user_header .submit_msg i, .personal_center .right_per .user_msg .user_con ul li h4.icon i, .personal_center .right_per .user_msg .user_con ul li h4 p, .personal_center .paymentCenter div.payment_select ul li i, .personal_center .paymentCenter div.payment_select ul li em {
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%; }
+
+span.choice_box {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  background: url("../images/personal_center.png") no-repeat -135px 0;
+  margin: 4px 0px 0 60px;
+  vertical-align: sub; }
+
+span.choice_box.choiced {
+  background-position: -120px 0 !important; }
+
+span.user_vr_pay {
+  margin-left: 4px !important; }
+
+.personal_center {
+  height: 100%; }
+  .personal_center .problem_center {
+    color: #828f9e; }
+  .personal_center .left_per {
+    width: 246px;
+    height: 100%;
+    border-right: 1px solid #293141;
+    background: rgba(32, 39, 49, 0.5); }
+    .personal_center .left_per li.pr {
+      width: 244px;
+      padding: 1px;
+      text-align: center;
+      line-height: 50px;
+      border-bottom: 1px solid #293141; }
+      .personal_center .left_per li.pr ol li {
+        border: none;
+        padding: 1px;
+        color: #536174;
+        font-size: 14px;
+        cursor: default;
+        text-align: left;
+        text-indent: 94px;
+        line-height: 50px; }
+        .personal_center .left_per li.pr ol li:active {
+          background: #384355; }
+        .personal_center .left_per li.pr ol li:hover {
+          background: #425067; }
+        .personal_center .left_per li.pr ol li.cur {
+          background: #384355;
+          color: #828f9e; }
+      .personal_center .left_per li.pr:hover {
+        background: #425067; }
+        .personal_center .left_per li.pr:hover:before {
+          background-position-x: -28px !important; }
+        .personal_center .left_per li.pr:hover a {
+          color: #828f9e; }
+      .personal_center .left_per li.pr.charge:hover {
+        background: rgba(32, 39, 49, 0.5); }
+      .personal_center .left_per li.pr:active {
+        background: #384355; }
+      .personal_center .left_per li.pr.cur {
+        background: #384355; }
+        .personal_center .left_per li.pr.cur:before {
+          background-position-x: -28px !important; }
+        .personal_center .left_per li.pr.cur a {
+          color: #828f9e; }
+      .personal_center .left_per li.pr.charge.cur {
+        background: rgba(32, 39, 49, 0.5); }
+      .personal_center .left_per li.pr:before {
+        content: '';
+        width: 28px;
+        height: 28px;
+        background: url("../images/personal_center.png") no-repeat 0 0;
+        position: absolute;
+        left: 64px;
+        top: 12px; }
+      .personal_center .left_per li.pr.charge:before {
+        background-position: 0 -28px; }
+      .personal_center .left_per li.pr.charge i {
+        width: 10px;
+        height: 10px;
+        background: url("../images/personal_center.png") no-repeat -90px 0;
+        right: 20px;
+        top: 24px;
+        position: absolute; }
+      .personal_center .left_per li.pr.charge i.cur {
+        background-position-x: -100px !important; }
+      .personal_center .left_per li.pr.problem:before {
+        background-position: 0 -56px; }
+      .personal_center .left_per li.pr a {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        color: #536174;
+        display: block; }
+  .personal_center .right_per {
+    margin-left: 270px;
+    padding: 20px 0; }
+    .personal_center .right_per .in_right_per {
+      width: 940px;
+      padding: 10px;
+      background: rgba(2, 2, 10, 0.4); }
+      .personal_center .right_per .in_right_per li.list_con {
+        display: none; }
+        .personal_center .right_per .in_right_per li.list_con.cur {
+          display: block; }
+        .personal_center .right_per .in_right_per li.list_con ol li.pay_method.cur {
+          display: block; }
+    .personal_center .right_per .user_msg .user_header {
+      height: 194px;
+      background: rgba(56, 67, 85, 0.2);
+      text-align: center; }
+      .personal_center .right_per .user_msg .user_header p img {
+        width: 100px;
+        height: 100%;
+        border-radius: 100%;
+        margin-top: 15px; }
+      .personal_center .right_per .user_msg .user_header p i.edit {
+        width: 24px;
+        height: 24px;
+        background: url("../images/personal_center.png") no-repeat 0 -84px;
+        top: 86%;
+        left: 54%; }
+      .personal_center .right_per .user_msg .user_header p.title {
+        line-height: 40px;
+        color: #c4d9f3;
+        font-size: 18px; }
+      .personal_center .right_per .user_msg .user_header .submit_msg {
+        display: inline-block; }
+        .personal_center .right_per .user_msg .user_header .submit_msg i {
+          width: 14px;
+          height: 18px;
+          background: url("../images/personal_center.png") no-repeat -24px -84px;
+          left: -6%;
+          position: absolute; }
+        .personal_center .right_per .user_msg .user_header .submit_msg p, .personal_center .right_per .user_msg .user_header .submit_msg span {
+          font-size: 14px;
+          color: #828f9e;
+          padding: 0 3px; }
+    .personal_center .right_per .user_msg .user_con ul {
+      padding: 0 120px;
+      margin-top: 40px; }
+      .personal_center .right_per .user_msg .user_con ul li {
+        width: 324px;
+        color: #536174; }
+        .personal_center .right_per .user_msg .user_con ul li:nth-child(2n) {
+          float: right; }
+        .personal_center .right_per .user_msg .user_con ul li h4 {
+          font-size: 14px;
+          color: #828f9e;
+          line-height: 18px;
+          text-indent: 8px;
+          cursor: default;
+          border-left: 2px solid #2cdef5; }
+          .personal_center .right_per .user_msg .user_con ul li h4.icon i {
+            content: '';
+            width: 17px;
+            height: 17px;
+            background: url("../images/personal_center.png") no-repeat -40px -84px;
+            position: absolute;
+            left: 88px; }
+          .personal_center .right_per .user_msg .user_con ul li h4 p {
+            left: 98%;
+            top: -62%;
+            height: 50px;
+            width: 340px;
+            line-height: 50px;
+            padding: 0 40px;
+            background: #151920;
+            color: #b82b2b;
+            display: none;
+            border: 1px solid #000; }
+            .personal_center .right_per .user_msg .user_con ul li h4 p.phone_tips {
+              width: 560px;
+              left: 132%; }
+        .personal_center .right_per .user_msg .user_con ul li p {
+          margin: 20px 0;
+          text-indent: 10px; }
+          .personal_center .right_per .user_msg .user_con ul li p span, .personal_center .right_per .user_msg .user_con ul li p input {
+            min-width: 78px;
+            line-height: 30px;
+            font-size: 14px; }
+          .personal_center .right_per .user_msg .user_con ul li p input {
+            background: #1d232f;
+            outline: none;
+            border: none;
+            width: 136px;
+            text-indent: 4px;
+            color: #828f9e; }
+          .personal_center .right_per .user_msg .user_con ul li p span.fr, .personal_center .right_per .user_msg .user_con ul li p b.unbind i {
+            width: 90px;
+            display: inline-block;
+            text-align: center;
+            text-indent: 0;
+            font-size: 14px;
+            line-height: 30px;
+            background: #384355;
+            border-radius: 2px;
+            color: #fff;
+            cursor: default; }
+            .personal_center .right_per .user_msg .user_con ul li p span.fr:hover, .personal_center .right_per .user_msg .user_con ul li p b.unbind i:hover {
+              background: #425067; }
+            .personal_center .right_per .user_msg .user_con ul li p span.fr:active, .personal_center .right_per .user_msg .user_con ul li p b.unbind i:active {
+              background: #1d232f; }
+          .personal_center .right_per .user_msg .user_con ul li p b.unbind i {
+            margin-left: 20px; }
+  .personal_center .paymentCenter {
+    color: #536174;
+    padding: 10px; }
+    .personal_center .paymentCenter .payment_title {
+      color: #828f9e;
+      text-indent: 5px;
+      line-height: 18px;
+      font-size: 16px;
+      border-left: 3px solid #2cdef5; }
+      .personal_center .paymentCenter .payment_title .contact {
+        font-size: 13px;
+        position: relative; }
+        .personal_center .paymentCenter .payment_title .contact:before {
+          content: '';
+          width: 17px;
+          height: 17px;
+          position: absolute;
+          background: url("../images/personal_center.png") no-repeat -85px -84px;
+          left: -30%; }
+        .personal_center .paymentCenter .payment_title .contact:hover {
+          color: #169bd6; }
+    .personal_center .paymentCenter div {
+      height: 30px;
+      font-size: 14px;
+      line-height: 30px;
+      margin: 30px 0;
+      text-align: center; }
+      .personal_center .paymentCenter div.vr_pay_con {
+        text-align: left;
+        margin: 0; }
+        .personal_center .paymentCenter div.vr_pay_con.pageGame_choice_mode {
+          background: #1d232f;
+          width: 544px;
+          height: auto;
+          padding: 10px; }
+          .personal_center .paymentCenter div.vr_pay_con.pageGame_choice_mode p {
+            line-height: 42px; }
+          .personal_center .paymentCenter div.vr_pay_con.pageGame_choice_mode .choice_vr_pay {
+            display: none; }
+      .personal_center .paymentCenter div.pageGame_pay {
+        height: 100px; }
+      .personal_center .paymentCenter div.pay_sel_btn {
+        line-height: 28px;
+        height: auto;
+        text-align: left; }
+        .personal_center .paymentCenter div.pay_sel_btn span {
+          text-align: center;
+          line-height: 28px;
+          display: inline-block;
+          cursor: default;
+          border-radius: 2px;
+          margin-right: 10px;
+          width: 84px;
+          background: #1d232f; }
+          .personal_center .paymentCenter div.pay_sel_btn span:hover {
+            background: #384355; }
+          .personal_center .paymentCenter div.pay_sel_btn span:active {
+            background: #2d3747; }
+          .personal_center .paymentCenter div.pay_sel_btn span.cur {
+            background: #2d3747;
+            color: #828f9e; }
+      .personal_center .paymentCenter div.zhi_pay_con {
+        display: none;
+        width: 630px; }
+        .personal_center .paymentCenter div.zhi_pay_con div.fl {
+          padding: 20px 130px;
+          margin-top: 12px;
+          border-right: 1px solid #293141; }
+          .personal_center .paymentCenter div.zhi_pay_con div.fl a {
+            width: 112px;
+            line-height: 32px;
+            color: #fff;
+            text-align: center;
+            display: block;
+            cursor: default;
+            top: 0;
+            left: 653px;
+            background: #22a1bf;
+            border-radius: 2px; }
+            .personal_center .paymentCenter div.zhi_pay_con div.fl a:hover {
+              background: #2cdef5; }
+            .personal_center .paymentCenter div.zhi_pay_con div.fl a:active {
+              background: #22a1bf; }
+        .personal_center .paymentCenter div.zhi_pay_con a {
+          color: #169bd6;
+          text-decoration: underline; }
+      .personal_center .paymentCenter div .name {
+        padding: 0 4px; }
+      .personal_center .paymentCenter div .balance_title {
+        margin-left: 60px; }
+      .personal_center .paymentCenter div .server {
+        margin-left: 40px; }
+      .personal_center .paymentCenter div .total_scale {
+        margin-left: 40px; }
+      .personal_center .paymentCenter div select {
+        line-height: 30px;
+        height: 30px;
+        background: #1d232f;
+        border: none;
+        color: #536174;
+        padding: 0 0px 0 10px;
+        text-align: center; }
+      .personal_center .paymentCenter div.payment_num span {
+        width: 110px;
+        line-height: 30px;
+        background: #1d232f;
+        border: 1px solid #1d232f;
+        cursor: default;
+        text-align: center;
+        margin-right: 1px; }
+        .personal_center .paymentCenter div.payment_num span:hover {
+          border: 1px solid #7b96c3;
+          background: #384355;
+          color: #fff; }
+        .personal_center .paymentCenter div.payment_num span:active {
+          border: 1px solid #7b96c3;
+          background: #425067;
+          color: #fff; }
+        .personal_center .paymentCenter div.payment_num span.cur {
+          border: 1px solid #7b96c3;
+          background: #384355;
+          color: #fff; }
+      .personal_center .paymentCenter div.other_pay_num label span {
+        width: 111px;
+        line-height: 30px;
+        background: #1d232f;
+        text-align: center;
+        cursor: default;
+        color: #828f9e;
+        border: 1px solid #1d232f;
+        border-right: 1px solid #536174; }
+      .personal_center .paymentCenter div.other_pay_num label input {
+        line-height: 32px;
+        width: 220px;
+        color: #828f9e;
+        text-indent: 10px;
+        background: #1d232f;
+        border: none; }
+      .personal_center .paymentCenter div.other_pay_num i {
+        width: 17px;
+        height: 17px;
+        background: url("../images/personal_center.png") no-repeat -40px -84px;
+        margin: 8px 16px; }
+      .personal_center .paymentCenter div.other_pay_num p.pay_num_tips {
+        padding: 0 40px;
+        line-height: 50px;
+        border: 1px solid #000;
+        background: #151920;
+        display: none;
+        color: #b82b2b;
+        left: 40%;
+        top: -24%; }
+      .personal_center .paymentCenter div.other_pay_num p.erro_tips {
+        top: 28px;
+        display: none; }
+      .personal_center .paymentCenter div.payment_btn {
+        width: 112px;
+        line-height: 32px;
+        color: #fff;
+        cursor: default;
+        background: #22a1bf;
+        border-radius: 2px; }
+        .personal_center .paymentCenter div.payment_btn:hover {
+          background: #2cdef5; }
+        .personal_center .paymentCenter div.payment_btn:active {
+          background: #22a1bf; }
+      .personal_center .paymentCenter div.payment_select ul {
+        padding: 0 20px 0 6px;
+        height: 160px;
+        border-right: 1px solid #293141; }
+        .personal_center .paymentCenter div.payment_select ul li {
+          width: 105px;
+          height: 43px;
+          line-height: 43px;
+          border: 1px solid transparent;
+          margin: 10px 0; }
+          .personal_center .paymentCenter div.payment_select ul li:hover {
+            border: 1px solid #293141;
+            background: #2d3747; }
+          .personal_center .paymentCenter div.payment_select ul li:active {
+            border: 1px solid #293141;
+            background: #425067; }
+          .personal_center .paymentCenter div.payment_select ul li.cur {
+            border: 1px solid #293141;
+            background: #1d232f; }
+            .personal_center .paymentCenter div.payment_select ul li.cur i {
+              background-position-x: -72px; }
+          .personal_center .paymentCenter div.payment_select ul li i {
+            width: 12px;
+            height: 12px;
+            background: url("../images/personal_center.png") no-repeat -60px -84px;
+            position: absolute;
+            left: 18%; }
+          .personal_center .paymentCenter div.payment_select ul li em {
+            width: 73px;
+            height: 30px;
+            background: url("../images/personal_center.png") no-repeat 0 -112px;
+            position: absolute;
+            left: 60%; }
+          .personal_center .paymentCenter div.payment_select ul li.zhi_pay em {
+            height: 26px;
+            background-position-y: -142px; }
+      .personal_center .paymentCenter div.payment_select .select_right {
+        text-align: left;
+        margin: 0;
+        height: auto; }
+        .personal_center .paymentCenter div.payment_select .select_right p span {
+          font-size: 14px; }
+          .personal_center .paymentCenter div.payment_select .select_right p span.pay_now {
+            width: 112px;
+            line-height: 32px;
+            color: #fff;
+            text-align: center;
+            display: block;
+            cursor: default;
+            top: 0;
+            left: 790px;
+            background: #22a1bf;
+            border-radius: 2px; }
+            .personal_center .paymentCenter div.payment_select .select_right p span.pay_now:hover {
+              background: #2cdef5; }
+            .personal_center .paymentCenter div.payment_select .select_right p span.pay_now:active {
+              background: #22a1bf; }
+          .personal_center .paymentCenter div.payment_select .select_right p span.balance {
+            margin-left: 20px; }
+      .personal_center .paymentCenter div.payment_tips {
+        height: 108px;
+        margin: 20px 0;
+        width: 920px;
+        display: none;
+        background: #1d232f; }
+        .personal_center .paymentCenter div.payment_tips i {
+          width: 38px;
+          height: 38px;
+          margin: 20px 30px;
+          background: url("../images/personal_center.png") no-repeat -60px -33px; }
+        .personal_center .paymentCenter div.payment_tips div {
+          margin: 0;
+          text-align: left;
+          padding: 10px; }
+      .personal_center .paymentCenter div.tips_con {
+        height: 120px;
+        padding: 20px;
+        text-align: left;
+        border: 1px solid #293141;
+        font-size: 12px; }
+        .personal_center .paymentCenter div.tips_con a {
+          padding: 0 5px; }
+        .personal_center .paymentCenter div.tips_con a:hover {
+          font-size: 12px;
+          color: #169bd6; }
+      .personal_center .paymentCenter div.pay_zhi_btn {
+        text-align: left; }
+        .personal_center .paymentCenter div.pay_zhi_btn span, .personal_center .paymentCenter div.pay_zhi_btn input {
+          width: 112px;
+          line-height: 32px;
+          color: #169bd6;
+          text-align: center;
+          display: inline-block;
+          cursor: default;
+          background: transparent;
+          border: 1px solid #22a1bf;
+          border-radius: 2px; }
+          .personal_center .paymentCenter div.pay_zhi_btn span:hover, .personal_center .paymentCenter div.pay_zhi_btn input:hover {
+            background: #2cdef5;
+            color: #fff; }
+          .personal_center .paymentCenter div.pay_zhi_btn span:active, .personal_center .paymentCenter div.pay_zhi_btn input:active {
+            background: #22a1bf;
+            color: #fff; }
+          .personal_center .paymentCenter div.pay_zhi_btn span.cur, .personal_center .paymentCenter div.pay_zhi_btn input.cur {
+            background: #22a1bf;
+            color: #fff; }
+    .personal_center .paymentCenter .pageGame_sel {
+      display: none; }
+
+/*# sourceMappingURL=personal_center.css.map */

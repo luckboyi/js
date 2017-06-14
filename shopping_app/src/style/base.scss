@@ -1,0 +1,42 @@
+$mainColor:#ff6d70; //主要颜色
+$greyCol:#9e9e9e; //灰色主色
+$titleCol:#3e3e3e;//标题的灰色
+$greyBg:#f0f0eb; //背景灰色
+$specialRedCol:#ba4e48; //特殊的标记红色
+$borderCol:#eaeaea;
+@mixin box-sizing($sizing){
+  -webkit-box-sizing:$sizing;
+       -moz-box-sizing:$sizing;
+            box-sizing:$sizing;
+}
+@mixin raduis($px) {
+  border-radius: $px;
+  -webkit-border-radius:$px;
+}
+@mixin center(){
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+@mixin topcenter(){
+  top:50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+.select_icon{
+  width: 20px;
+  height: 20px;
+  background-position: 0 -48px;
+  display: inline-block;
+
+}
+.select_icon.cur{
+  background-position: 0 -68px;
+}
+.editor_icon{
+  width: 21px;
+  height: 20px;
+  background-position:-80px -48px;
+}

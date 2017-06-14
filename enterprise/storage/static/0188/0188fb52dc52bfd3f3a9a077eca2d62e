@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VRonline</title>
+    <link rel="stylesheet" href="http://pic.vronline.com/news/min/style/wap.min.css?34">
+    <script src="http://pic.vronline.com/common/js/jquery-1.12.3.min.js?34"></script>
+     <style>
+.con_right .VR_assistant .introduce a.down:hover{
+    color:#fff !important;
+}
+</style>
+</head>
+<body>
+    <!--广告位-->
+    <div></div>
+    <!--头部-->
+    <div class="head">
+        <div class="pr clearfix">
+            <a class="fl" href="javascript:;"><i class="logo"></i></a>
+            <ul class="fl">
+                <li class="fl"><a href="/">首页</a></li>
+                <li class="fl zx">
+                    <a href="/news/list/0">资讯<i class="zixun"></i></a>
+                    <div class="list_con clearfix">
+                        <a  class="fl" href="/news/list/2">产业</a>
+<a  class="fl" href="/news/list/3">厂商</a>
+<a  class="fl" href="/news/list/4">专访</a>
+<a  class="fl" href="/news/list/5">技术</a>
+                    </div>
+                </li>
+                <li class="fl"><a href="/news/list/6">游戏</a></li>
+                <li class="fl"><a href="/news/list/7">视频</a></li>
+                <li class="fl"><a href="http://open.vronline.com" target="_blank">开发者</a></li>
+                <li class="fl"><a href="http://www.vronline.com/down" target="_blank">VR助手</a></li>
+            </ul>
+            <div class="fr head_right clearfix">
+                <a class="fl pr wx_hover">
+                    <i class="weixin"></i>
+                    <p class="code_bg wx_code_bg">
+                        <img src="http://pic.vronline.com/news/images/VRonline_platform.jpg?34">
+                        <img src="http://pic.vronline.com/news/images/VRonline_game.jpg?34">
+                    </p>
+                </a>
+                <a class="fl pr wb_hover">
+                    <i class="weibo"></i>
+                    <p class="code_bg wb">
+                        <img src="http://pic.vronline.com/news/images/sina.png?34">
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+     <div class="con">
+    <div class="clearfix">
+        <!--左侧新闻-->
+        <div class="fl con_left">
+            <ul class="headlines">
+                                                                <li>
+                    <a class="big_title ells" href="/news/detail/102.html" target="_blank">益达用完用霸王《生化危机7》公开绿草与敌人演示</a>
+                                        <div class="clearfix">
+                        <a class="fl ells" href="/news/detail/100.html" target="_blank">PS VR10月DL数TOP10公开 没想到第一是&hellip;&hellip;</a>
+                                                <a class="fr ells" href="/news/detail/97.html" target="_blank">黑丝美腿大凶妹 《VR女友》Demo演示</a>
+                                            </div>
+                                    </li>
+                                                                <li>
+                    <a class="big_title ells" href="/news/detail/72.html" target="_blank">诺基亚未来两年内将进军VR领域重返智能手机市场</a>
+                                        <div class="clearfix">
+                        <a class="fl ells" href="/news/detail/71.html" target="_blank">索尼PS VR缺货的状态将会得到改善</a>
+                                                <a class="fr ells" href="/news/detail/70.html" target="_blank">安卓7.0系统使用Gear VR方法</a>
+                                            </div>
+                                    </li>
+                                                                <li>
+                    <a class="big_title ells" href="/news/detail/69.html" target="_blank">《临终：重生试炼》VR数字版将于11月24日登陆国行商店</a>
+                                        <div class="clearfix">
+                        <a class="fl ells" href="/news/detail/68.html" target="_blank">Daydream离&quot;美梦&quot;还很远 四大困境谷歌究竟要怎么玩？</a>
+                                                <a class="fr ells" href="/news/detail/67.html" target="_blank">微软WinHEC 2016大会情报汇总</a>
+                                            </div>
+                                    </li>
+                                                                <li>
+                    <a class="big_title ells" href="/news/detail/66.html" target="_blank">《VR女友》360度全景视频 豪爽妹纸对着电风扇吹</a>
+                                        <div class="clearfix">
+                        <a class="fl ells" href="/news/detail/122.html" target="_blank">【游戏评测】《小行星》VR游戏速评:体验一把星际飞行的畅快感受</a>
+                                                <a class="fr ells" href="/news/detail/64.html" target="_blank">张艺谋的VR布局：SoReal内容+联想硬件+万达线下流量</a>
+                                            </div>
+                                    </li>
+                                                            </ul>
+            <ul class="news">
+                                                <li class="clearfix">
+                    <a class="fl news_head" href="/news/list/4" target="_blank">[<span>专访</span>]</a>
+                    <a class="fl news_con clearfix"  href="/news/detail/219.html"  target="_blank">
+                        <span class="fl ells">谷歌在英国推动免费VR教育计划</span>
+                        <span class="fr">2016-12-12 </span>
+                    </a>
+                </li>
+                                <li class="clearfix">
+                    <a class="fl news_head" href="/news/list/3" target="_blank">[<span>厂商</span>]</a>
+                    <a class="fl news_con clearfix"  href="/news/detail/167.html"  target="_blank">
+                        <span class="fl ells">【硬件评测】Lefant VR真实评测：国产VR眼镜能谈的优势只有价格</span>
+                        <span class="fr">2016-12-12 </span>
+                    </a>
+                </li>
+                                <li class="clearfix">
+                    <a class="fl news_head" href="/news/list/6" target="_blank">[<span>游戏</span>]</a>
+                    <a class="fl news_con clearfix"  href="/news/detail/205.html"  target="_blank">
+                        <span class="fl ells">北京疯狂互动携VR游戏《末日求生:特训》角逐2016年度CGDA</span>
+                        <span class="fr">2016-12-10 </span>
+                    </a>
+                </li>
+                                <li class="clearfix">
+                    <a class="fl news_head" href="/news/list/5" target="_blank">[<span>技术</span>]</a>
+                    <a class="fl news_con clearfix"  href="/news/detail/78.html"  target="_blank">
+                        <span class="fl ells">玩VR时为什么会晕&amp;怎么缓解症状？</span>
+                        <span class="fr">2016-12-10 </span>
+                    </a>
+                </li>
+                                <li class="clearfix">
+                    <a class="fl news_head" href="/news/list/6" target="_blank">[<span>游戏</span>]</a>
+                    <a class="fl news_con clearfix"  href="/news/detail/102.html"  target="_blank">
+                        <span class="fl ells">益达用完用霸王《生化危机7》公开绿草与敌人演示</span>
+                        <span class="fr">2016-12-10 </span>
+                    </a>
+                </li>
+                                <li class="clearfix">
+                    <a class="fl news_head" href="/news/list/2" target="_blank">[<span>产业</span>]</a>
+                    <a class="fl news_con clearfix"  href="/news/detail/68.html"  target="_blank">
+                        <span class="fl ells">Daydream离&quot;美梦&quot;还很远 四大困境谷歌究竟要怎么玩？</span>
+                        <span class="fr">2016-12-09 </span>
+                    </a>
+                </li>
+                                <li class="clearfix">
+                    <a class="fl news_head" href="/news/list/7" target="_blank">[<span>视频</span>]</a>
+                    <a class="fl news_con clearfix"  href="/news/detail/77.html"  target="_blank">
+                        <span class="fl ells">拆易装难 PlayStationVR拆解视频</span>
+                        <span class="fr">2016-12-09 </span>
+                    </a>
+                </li>
+                                <li class="clearfix">
+                    <a class="fl news_head" href="/news/list/6" target="_blank">[<span>游戏</span>]</a>
+                    <a class="fl news_con clearfix"  href="/news/detail/121.html"  target="_blank">
+                        <span class="fl ells">I社体感新作《VR女友》变身《AR女友》</span>
+                        <span class="fr">2016-12-09 </span>
+                    </a>
+                </li>
+                                <li class="clearfix">
+                    <a class="fl news_head" href="/news/list/6" target="_blank">[<span>游戏</span>]</a>
+                    <a class="fl news_con clearfix"  href="/news/detail/66.html"  target="_blank">
+                        <span class="fl ells">《VR女友》360度全景视频 豪爽妹纸对着电风扇吹</span>
+                        <span class="fr">2016-12-09 </span>
+                    </a>
+                </li>
+                                <li class="clearfix">
+                    <a class="fl news_head" href="/news/list/3" target="_blank">[<span>厂商</span>]</a>
+                    <a class="fl news_con clearfix"  href="/news/detail/62.html"  target="_blank">
+                        <span class="fl ells">索尼再发力 多款游戏过审</span>
+                        <span class="fr">2016-12-09 </span>
+                    </a>
+                </li>
+                                <li class="clearfix">
+                    <a class="fl news_head" href="/news/list/5" target="_blank">[<span>技术</span>]</a>
+                    <a class="fl news_con clearfix"  href="/news/detail/63.html"  target="_blank">
+                        <span class="fl ells">玩PSVR你需要记住这些！</span>
+                        <span class="fr">2016-12-09 </span>
+                    </a>
+                </li>
+                                            </ul>
+        </div>
+        <div class="fr con_right">
+            <!--右侧轮播-->
+            <div class="content" style="width:730px;height:310px; margin-bottom:20px; overflow:hidden;">
+                <div id="slider">
+                                                            <a href="/news/detail/121.html" target="_blank">
+                        <img src="http://image.vronline.com/newsimg/10040/b28cab57f1828fe4cf5a7b97a79d926d1481288168960.jpg"/>
+                        <p>I社体感新作《VR女友》变身《AR女友》</p>
+                    </a>
+                                        <a href="/news/detail/62.html" target="_blank">
+                        <img src="http://image.vronline.com/newsimg/10040/534d1cb09f8e43d5055188ea1a0ede0f1481288301135.jpg"/>
+                        <p>索尼再发力 多款游戏过审</p>
+                    </a>
+                                                        </div>
+            </div>
+            <div class="clearfix">
+                <div class="fl">
+                    <div class="VR_assistant">
+                        <div class="title clearfix">
+                            <i class="fl title_icon"></i>
+                            <h3 class="fl">VR助手</h3>
+                        </div>
+                        <div class="clearfix VR_assistant_con">
+                            <a class="fl" href="http://www.vronline.com/down" target="_blank"><img src="http://pic.vronline.com/news/images/vronlin.png?34"></a>
+                            <div class="fr introduce">
+                                <a class="text"  href="http://www.vronline.com/down" target="_blank">市面上最大、最全的VR游戏和VR视频资源的内容平台。独创的3D游戏VR模式，目前支持《魔兽世界》、《守望先锋》等游戏在主流VR设备上体验。</a>
+                                <a class="down" href="http://www.vronline.com/down" target="_blank" style="margin-top: 54px">下 载</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hardware">
+                        <div class="title clearfix">
+                            <i class="fl title_icon"></i>
+                            <h3 class="fl">硬件新语</h3>
+                        </div>
+                        <div>
+                                                        <p>
+                                <a class="ells title" href="/news/detail/83.html" target="_blank">佳能推出VR模拟器 足不出户就能体验镜头之间的差异</a>
+                                <span class="ells2">现在临近年底假期，假如你想要购买一些摄影装备的话，是不是苦于没法亲自到店里体验呢?现在佳能新推出的虚拟现实模拟器可以解决这个难题，让你足不出户就能体验各个镜头之</span>
+                            </p>
+                                                                                    <div class="level_title">
+                                <p class="fl">
+                                    <a class="title ells" href="/news/detail/82.html" target="_blank">Athena VR冲锋枪让你体验真实的实战射击123</a>
+                                    <span class="ells2">VR真正被大众接受还是需要解决一些问题，例如动作捕捉传感器不成熟等。目前大多VR体验都是需要玩家用身体连接电缆从而实现动作捕捉的功能，但是这会在一定程度上破坏玩</span>
+                                </p>
+                                                                <p class="fr">
+                                    <a class="title ells" href="/news/detail/81.html" target="_blank">Kenzan Studios获3415万融资 投入VR研发</a>
+                                    <span class="ells2">11月的文体圈到底怎么了?话说还没从宝强那些事中缓过神来，就被&ldquo;超级丹&rdquo;出轨的新闻炸醒了。这位体坛英雄被曝出在妻子怀孕期间，与一模特有染。而他本人也在微博上承认</span>
+                                </p>
+                                                            </div>
+                                                    </div>
+                    </div>
+                </div>
+                <div class="fr right_img">
+                    <ul>
+                                                                        <li class="pr">
+                            <a href="3" target="_blank">
+                                <img src="http://image.vronline.com/newsimg/10040/7a1a3c8a6a6f68bde309e8fdd0a8145c1481361208832.jpg?imageView2/5/w/280/h/116">
+                                <p class="ells"></p>
+                            </a>
+                        </li>
+                                                <li class="pr">
+                            <a href="2" target="_blank">
+                                <img src="http://image.vronline.com/bannerimg/1209/3bd1fed6f74f1f943812b7838a24d41a.jpg?imageView2/5/w/280/h/116">
+                                <p class="ells"></p>
+                            </a>
+                        </li>
+                                                <li class="pr">
+                            <a href="1" target="_blank">
+                                <img src="http://image.vronline.com/bannerimg/1209/bc5ae9b04c3c40a433437a1b328d99d0.jpg?imageView2/5/w/280/h/116">
+                                <p class="ells"></p>
+                            </a>
+                        </li>
+                                                                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 广告通栏 -->
+    <div class="ad_container">
+        <a href="http://www.vronline.com/down" target="_blank">
+            <img src="http://pic.vronline.com/news/min/images/middad.png?34">
+        </a>
+    </div>
+<!-- 广告通栏-end -->
+    <div class="clearfix classify">
+        <div class="fl industry">
+	<div class="title">
+		<h3 class="fl">产业</h3>
+		<a class="fr" href="/news/list/2" target="_blank">更多</a>
+	</div>
+	<div>
+		<ul>
+									<li class="clearfix">
+				<a class="fl" href="/news/detail/85.html" target="_blank"><img src="http://image.vronline.com/bannerimg/1209/bbea2ec4d5c35259633c1f714378ed7e.jpg?imageView2/5/w/133/h/99"></a>
+				<div class="fr">
+					<a class="ells2" href="/news/detail/85.html" target="_blank">VR社交应用Vtime现已支持iPhone</a>
+					<p class="ells2">Vtime是一款VR社交应用，允许任何人在任何地方通过虚拟现实的方式与亲朋好友交流聚会。自2015年12月发布以来，目前用户已经遍布195个国家和地区。时隔10</p>
+				</div>
+			</li>
+						<li class="clearfix">
+				<a class="fl" href="/news/detail/84.html" target="_blank"><img src="http://image.vronline.com/bannerimg/1209/877671d68b88f3a5907eb16265a4ac9d.jpg?imageView2/5/w/133/h/99"></a>
+				<div class="fr">
+					<a class="ells2" href="/news/detail/84.html" target="_blank">Lignum:苹果手机上第一款可用的VR手柄</a>
+					<p class="ells2">在三星、华为等都开始在VR浪潮中翻滚的时候，我们的苹果大神却还是不紧不慢，至今也没有正式推出相关作品，这可把一些果粉急得半死。移动VR虽然已经有了适配苹果手机的</p>
+				</div>
+			</li>
+								</ul>
+	</div>
+</div>
+        <div class="fl Manufacturer">
+	<div class="title">
+		<h3 class="fl">厂商</h3>
+		<a class="fr" href="/news/list/3" target="_blank">更多</a>
+	</div>
+	<div class="Manufacturer_con">
+				<div class="clearfix">
+			<a class="fl" href="/news/detail/149.html;" target="_blank"><img src="http://image.vronline.com/bannerimg/1209/090bbb329a925e44eb124c6c912442b3.jpg?imageView2/5/w/133/h/99"></a>
+			<div class="fr">
+				<a class="ells2" href="/news/detail/149.html" target="_blank">华硕将于明年第三季度发布VR一体机</a>
+				<p class="ells2">在今年之初，联想公司是第一家宣布支持Tango智能手机项目的制造商，其产品中附带了Google的增强现实(AR)功能。 
+就在一个星期前，联想发布了Phab 2</p>
+			</div>
+		</div>
+						<ul>
+									<li>
+				<a class="ells" href="/news/detail/98.html" target="_blank">微星推出迷你VR PC 小机箱可装一块GTX 1060</a>
+				<p class="ells">随着玩家对VR虚拟产品热情不减，市场中以VR虚拟化体验的产品层出不穷，微星格外关心这一领域，新品不断比如VR 
+ONE虚拟背包，以及即将发布的微星又一迷你主机&mdash;</p>
+			</li>
+						<li>
+				<a class="ells" href="/news/detail/86.html" target="_blank">国内团队在Steam和PS上做VR游戏不行？EXM？</a>
+				<p class="ells">&ldquo;Steam和PS上做VR游戏不行，至少国内团队玩不来，做移动VR游戏更容易一些。&rdquo;近来VR行业内出现了类似上面这样的观点，而VRZINC在和很多内容制作团队、</p>
+			</li>
+								</ul>
+	</div>
+</div>        <div class="fr people">
+	<div class="title">
+		<h3 class="fl">专访</h3>
+		<a class="fr" href="/news/list/4" target="_blank">更多</a>
+	</div>
+	<div>
+		<ul>
+									<li class="clearfix">
+				<a class="fl" href="/news/detail/124.html" target="_blank"><img src="http://image.vronline.com/bannerimg/1209/3674cb3e8c69e8557f25b3db22f20693.jpg?imageView2/5/w/133/h/99"></a>
+				<div class="fr">
+					<a class="ells2" href="/news/detail/124.html" target="_blank">第二届eSmart展望&mdash;&mdash;&ldquo;军备竞赛&rdquo;后 VR领域内容为王</a>
+					<p class="ells2">2016年已逐渐进入尾声，在这一&ldquo;VR元年&rdquo;里，我们见识了HTC Vive的傲视群雄，看到了PSVR的持续火爆，目睹了Oculus  Rift的迅速崛起，盼来了</p>
+				</div>
+			</li>
+						<li class="clearfix">
+				<a class="fl" href="/news/detail/90.html" target="_blank"><img src="http://image.vronline.com/bannerimg/1209/809f753887bbb5e6c95daf55981b9389.jpg?imageView2/5/w/133/h/99"></a>
+				<div class="fr">
+					<a class="ells2" href="/news/detail/90.html" target="_blank">无线VR的昨天今天和明天</a>
+					<p class="ells2">2016年11月11日，最让热衷虚拟现实的科技男们兴奋的，不是得到了女神晚餐的邀请，而是HTC无线虚拟现实头盔发布的消息。是的，这一天应该被记住，就好像电话在一</p>
+				</div>
+			</li>
+								</ul>
+	</div>
+</div>
+    </div>
+    <div class="clearfix classify">
+        <div class="fl industry">
+	<div class="title">
+		<h3 class="fl">技术</h3>
+		<a class="fr" href="/news/list/5" target="_blank">更多</a>
+	</div>
+	<div>
+		<ul>
+									<li class="clearfix">
+				<a class="fl" href="/news/detail/107.html" target="_blank"><img src="http://image.vronline.com/bannerimg/1209/c381bd7a3d04d12c979f89a347f91344.jpg?imageView2/5/w/133/h/99"></a>
+				<div class="fr">
+					<a class="ells2" href="/news/detail/107.html" target="_blank">PSVR如何多人联机游戏</a>
+					<p class="ells2">PSVR(PlayStationVR)是一款让游戏体验变得十分有趣的设备，那么PSVR的游戏支不支持多人联机，如何多人游戏呢，小编这就为大家来解答。PSVR是支</p>
+				</div>
+			</li>
+						<li class="clearfix">
+				<a class="fl" href="/news/detail/67.html" target="_blank"><img src="http://image.vronline.com/bannerimg/1209/6af0f986b61561fb5833767597e9f7c3.jpg?imageView2/5/w/133/h/99"></a>
+				<div class="fr">
+					<a class="ells2" href="/news/detail/67.html" target="_blank">微软WinHEC 2016大会情报汇总</a>
+					<p class="ells2">微软于今日（12月8日）在深圳举行WinHEC 2016硬件大会，在大会上微软全球执行副总裁Terry Myerson宣布，微软MR设备HoloLens正在通过</p>
+				</div>
+			</li>
+						<li class="clearfix">
+				<a class="fl" href="/news/detail/87.html" target="_blank"><img src="http://image.vronline.com/bannerimg/1209/803cb466e35b87607ecf2bbfb2a51eb1.jpg?imageView2/5/w/133/h/99"></a>
+				<div class="fr">
+					<a class="ells2" href="/news/detail/87.html" target="_blank">《RIGS》国行版12月15日上市 售价339元</a>
+					<p class="ells2">索尼互动娱乐(上海)有限公司和上海东方明珠索乐文化发展有限公司今日宣布，PlayStation&reg;VR专用简体中文版游戏《新世纪战甲大赛 机械化战斗联盟》的光盘版</p>
+				</div>
+			</li>
+								</ul>
+	</div>
+</div>
+        <div class="fl Manufacturer games">
+	<div class="title">
+		<h3 class="fl">游戏</h3>
+		<a class="fr" href="/news/list/6" target="_blank">更多</a>
+	</div>
+	<div class="Manufacturer_con">
+				<div class="clearfix">
+			<a class="fl" href="/news/detail/96.html;" target="_blank"><img src="http://image.vronline.com/bannerimg/1209/ad6192c61bbd0dbe2b741105b7ec4f60.jpg?imageView2/5/w/133/h/99"></a>
+			<div class="fr">
+				<a class="ells2" href="/news/detail/96.html" target="_blank">《鹰飞》上市宣传片发布 目前已经登陆Oculus Rift</a>
+				<p class="ells2">FunHouse和育碧日前发布了《鹰飞》的上市宣传片，游戏会在今天登陆Oculus Rift。育碧蒙特利尔FunHouse的副总监Patrick Plourde</p>
+			</div>
+		</div>
+						<ul>
+									<li>
+				<a class="ells" href="/news/detail/94.html" target="_blank">重量级制作班底将《行尸走肉》带进VR领域</a>
+				<p class="ells">近日，由Dave  Alpert、Skybound娱乐公司和Delusion公司合作共同出品系列VR恐怖片，这一系列恐怖片看点十足，原因在于合作方的实力都很强大</p>
+			</li>
+						<li>
+				<a class="ells" href="/news/detail/89.html" target="_blank">索尼公开AR游戏计划Project Field</a>
+				<p class="ells">从Skylander到Amiibo，&ldquo;生活玩具&rdquo;一直是电子游戏公司吸引玩家的不错方式。索尼此前没有参与这一领域。不过本周三，索尼公布了类似项目Project F</p>
+			</li>
+						<li>
+				<a class="ells" href="/news/detail/75.html" target="_blank">《三维弹球FX2》推&ldquo;行尸走肉&rdquo;扩展包 支持PS VR平台</a>
+				<p class="ells">如果你喜欢弹球类游戏，目前可供VR玩家选择的数量并不多，其中Zen Studios开发的《三维弹球FX2(Pinball FX2)》已上线Oculus  Rif</p>
+			</li>
+						<li>
+				<a class="ells" href="/news/detail/88.html" target="_blank">《NBA 2KVR体验》今日发售 发售预告片放出</a>
+				<p class="ells">2K今天宣布，首款虚拟现实篮球游戏《NBA 2KVR  Experience》将让玩家陶醉在充满声光效果和娱乐性的全新篮球环境，并参与各种有趣的小游戏和挑战。支</p>
+			</li>
+								</ul>
+	</div>
+</div>        <div class="fr popular_recommende">
+    <div class="title">
+        <h3 class="fl">热门推荐</h3>
+        <div class="clearfix fr detail-top">
+            <a class="fl cur" href="javascript:;" id="detail-top-news"><span>新闻</span>/</a>
+            <a class="fl" id="detail-top-game" href="javascript:;"><span>游戏</span>/</a>
+            <a class="fl" id="detail-top-video" href="javascript:;"><span>视频</span></a>
+        </div>
+    </div>
+                        <div class="recommende_con detail-top-news_hot  cur showB ">
+                <ul>
+                                                                        <li>
+                                <a href="/news/detail/83.html">
+                                    <div class=" conceal  clearfix">
+                                        <span class="fl ranking  ranking_good ">1</span>
+                                        <span class="fl ells ranking_con">佳能推出VR模拟器 足不出户就能体验镜头之间的差异</span>
+                                    </div>
+                                    <div class="clearfix bewrite  shows ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/daa4eae9129dea3f056ba621efa2ed82.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">佳能推出VR模拟器 足不出户就能体验镜头之间的差异</span>
+                                            <p class="ells2">现在临近年底假期，假如你想要购买一些摄影装备的话，是不是苦于没法亲自到店里体验呢?现在佳能新推出的虚拟现实模拟器可以解决这个难题，让你足不出户就能体验各个镜头之</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/86.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">2</span>
+                                        <span class="fl ells ranking_con">国内团队在Steam和PS上做VR游戏不行？EXM？</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/b46fa936d761e77f5f3b8a1c8e6ee011.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">国内团队在Steam和PS上做VR游戏不行？EXM？</span>
+                                            <p class="ells2">&ldquo;Steam和PS上做VR游戏不行，至少国内团队玩不来，做移动VR游戏更容易一些。&rdquo;近来VR行业内出现了类似上面这样的观点，而VRZINC在和很多内容制作团队、</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/84.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">3</span>
+                                        <span class="fl ells ranking_con">Lignum:苹果手机上第一款可用的VR手柄</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/877671d68b88f3a5907eb16265a4ac9d.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">Lignum:苹果手机上第一款可用的VR手柄</span>
+                                            <p class="ells2">在三星、华为等都开始在VR浪潮中翻滚的时候，我们的苹果大神却还是不紧不慢，至今也没有正式推出相关作品，这可把一些果粉急得半死。移动VR虽然已经有了适配苹果手机的</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/90.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">4</span>
+                                        <span class="fl ells ranking_con">无线VR的昨天今天和明天</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/809f753887bbb5e6c95daf55981b9389.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">无线VR的昨天今天和明天</span>
+                                            <p class="ells2">2016年11月11日，最让热衷虚拟现实的科技男们兴奋的，不是得到了女神晚餐的邀请，而是HTC无线虚拟现实头盔发布的消息。是的，这一天应该被记住，就好像电话在一</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/77.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">5</span>
+                                        <span class="fl ells ranking_con">谷歌的移动VR标准会成为白日梦吗?</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/newsimg/10040/8587dc7b26d4ec583636ddc26196885f1481253234838.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">谷歌的移动VR标准会成为白日梦吗?</span>
+                                            <p class="ells2">PlaystationVR的发售让广大玩家对于这款关注已久的VR设备的真面目更加好奇。而拆解急先锋iFixit已经把它剥了个精光。       遮光罩的拆卸还是</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/76.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">6</span>
+                                        <span class="fl ells ranking_con">英特尔寻求转型 虚拟现实是重点发力对象</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/newsimg/10040/7a1a3c8a6a6f68bde309e8fdd0a8145c1481253188705.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">英特尔寻求转型 虚拟现实是重点发力对象</span>
+                                            <p class="ells2">MIT(麻省理工学院)的电脑及人工智能研究所(CSAIL)近日推出了VRHMD无线传输方案《MoVR》系统，玩家将不会在担心玩VR&ldquo;激烈运动&rdquo;时与线缆的纠葛了。</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/75.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">7</span>
+                                        <span class="fl ells ranking_con">Oculus公布360度追踪和房间尺度安装方法 按照Oculus之前的规划，OculusTouch于12月6</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/newsimg/10040/355b3567eaf4b0e3fc2213ece63e885b1481253145973.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">Oculus公布360度追踪和房间尺度安装方法 按照Oculus之前的规划，OculusTouch于12月6</span>
+                                            <p class="ells2">如果你喜欢弹球类游戏，目前可供VR玩家选择的数量并不多，其中Zen Studios开发的《三维弹球FX2(Pinball FX2)》已上线Oculus  Rif</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                            </ul>
+            </div>
+                    <div class="recommende_con detail-top-game_hot  cur hideB ">
+                <ul>
+                                                                        <li>
+                                <a href="/news/detail/94.html">
+                                    <div class=" conceal  clearfix">
+                                        <span class="fl ranking  ranking_good ">1</span>
+                                        <span class="fl ells ranking_con">重量级制作班底将《行尸走肉》带进VR领域</span>
+                                    </div>
+                                    <div class="clearfix bewrite  shows ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/00c8366c4c2e69eaa611451f2237b08b.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">重量级制作班底将《行尸走肉》带进VR领域</span>
+                                            <p class="ells2">近日，由Dave  Alpert、Skybound娱乐公司和Delusion公司合作共同出品系列VR恐怖片，这一系列恐怖片看点十足，原因在于合作方的实力都很强大</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/93.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">2</span>
+                                        <span class="fl ells ranking_con">《HoloBall》明日登陆PS VR 支持PS4 Pro</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/f6b1ea3946ff857cf3c75567447af29b.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">《HoloBall》明日登陆PS VR 支持PS4 Pro</span>
+                                            <p class="ells2">《HoloBall》即将于明日登陆PS VR平台，本作是一款休闲动作类游戏，同时本作还将增加对PS4 Pro主机的支持。玩家在游戏中与AI进行对战，Vive手柄</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/75.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">3</span>
+                                        <span class="fl ells ranking_con">《三维弹球FX2》推&ldquo;行尸走肉&rdquo;扩展包 支持PS VR平台</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/016e22eb6212b067c984cb86bd394171.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">《三维弹球FX2》推&ldquo;行尸走肉&rdquo;扩展包 支持PS VR平台</span>
+                                            <p class="ells2">如果你喜欢弹球类游戏，目前可供VR玩家选择的数量并不多，其中Zen Studios开发的《三维弹球FX2(Pinball FX2)》已上线Oculus  Rif</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/80.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">4</span>
+                                        <span class="fl ells ranking_con">B社或将推出VR版《辐射4》</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/f100b98564800b6b8e7c3d56166dd183.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">B社或将推出VR版《辐射4》</span>
+                                            <p class="ells2">在今年的E3展会上，B社曾推出了《辐射4》的VR体验，玩家们也非常期待本作能正式VR化。最近，B社高层Todd  Howard接受采访时表态，B社正在尝试VR游</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/87.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">5</span>
+                                        <span class="fl ells ranking_con">《RIGS》国行版12月15日上市 售价339元</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/803cb466e35b87607ecf2bbfb2a51eb1.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">《RIGS》国行版12月15日上市 售价339元</span>
+                                            <p class="ells2">索尼互动娱乐(上海)有限公司和上海东方明珠索乐文化发展有限公司今日宣布，PlayStation&reg;VR专用简体中文版游戏《新世纪战甲大赛 机械化战斗联盟》的光盘版</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/88.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">6</span>
+                                        <span class="fl ells ranking_con">《NBA 2KVR体验》今日发售 发售预告片放出</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/ad395547cb495537716e503ba295764b.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">《NBA 2KVR体验》今日发售 发售预告片放出</span>
+                                            <p class="ells2">2K今天宣布，首款虚拟现实篮球游戏《NBA 2KVR  Experience》将让玩家陶醉在充满声光效果和娱乐性的全新篮球环境，并参与各种有趣的小游戏和挑战。支</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/89.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">7</span>
+                                        <span class="fl ells ranking_con">登陆PSVR 最新发售预告公布</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/newsimg/10040/207a59a9e902b78e93b21388a1c839291481265908261.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">登陆PSVR 最新发售预告公布</span>
+                                            <p class="ells2">从Skylander到Amiibo，&ldquo;生活玩具&rdquo;一直是电子游戏公司吸引玩家的不错方式。索尼此前没有参与这一领域。不过本周三，索尼公布了类似项目Project F</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                            </ul>
+            </div>
+                    <div class="recommende_con detail-top-video_hot  cur hideB ">
+                <ul>
+                                                                        <li>
+                                <a href="/news/detail/209.html">
+                                    <div class=" conceal  clearfix">
+                                        <span class="fl ranking  ranking_good ">1</span>
+                                        <span class="fl ells ranking_con">《何以飞翔》正式登陆PSVR 最新发售预告公布</span>
+                                    </div>
+                                    <div class="clearfix bewrite  shows ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/5b0312156960ebf48a29f4a4cfceb560.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">《何以飞翔》正式登陆PSVR 最新发售预告公布</span>
+                                            <p class="ells2">Penny Black工作室的新作&mdash;&mdash;《何以飞翔(How We Soar)》现已正式登陆PSVR，这款游戏为我们带来了与众不同的骑乘体验。在这款游戏中，你所驾驭</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/77.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">2</span>
+                                        <span class="fl ells ranking_con">拆易装难 PlayStationVR拆解视频</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/9f6f1123e340b0931ce1a97d7247e38a.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">拆易装难 PlayStationVR拆解视频</span>
+                                            <p class="ells2">PlaystationVR的发售让广大玩家对于这款关注已久的VR设备的真面目更加好奇。而拆解急先锋iFixit已经把它剥了个精光。       遮光罩的拆卸还是</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/226.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">3</span>
+                                        <span class="fl ells ranking_con">《夏日课堂：宫本光 第二感》今日配信</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/fdb02c8a1a16b42cd4754e992f78c189.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">《夏日课堂：宫本光 第二感》今日配信</span>
+                                            <p class="ells2">万代南梦宫为《夏日课堂：宫本光-第二感》附加包公布了一段预告片。今日配信的本部附加包售价1490日元，已经可以通过日服PSN购买下载。《夏日课堂》附加包配信宣传</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/181.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">4</span>
+                                        <span class="fl ells ranking_con">《外科手术模拟》最新重口味预告片公开</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/5da030d9b7181a15ac95ddf15b88a263.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">《外科手术模拟》最新重口味预告片公开</span>
+                                            <p class="ells2">喜欢重口味游戏的玩家有福利了，Bossa工作室今天宣布《外科手术模拟：体验现实(Surgeon Simulator: Experience Reality)》现</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/192.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">5</span>
+                                        <span class="fl ells ranking_con">奇葩VR新游《死亡饥饿》12月6日发售</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/c1e828c3942cf33a5298c11eb2f5b044.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">奇葩VR新游《死亡饥饿》12月6日发售</span>
+                                            <p class="ells2">《死亡饥饿(Dead Hungry)》由Q-Games公司发行的一款快节奏的热闹恐慌动作游戏。游戏中你将直接面对无尽的丧尸，它们回来到玩家的汉堡店索要吃的。而玩</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/104.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">6</span>
+                                        <span class="fl ells ranking_con">用VR绘制《魔兽世界》死亡之翼 黑色翅膀霸气十足！</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/bannerimg/1209/786b68b358e9d69f5fdd398bf972b4fb.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">用VR绘制《魔兽世界》死亡之翼 黑色翅膀霸气十足！</span>
+                                            <p class="ells2">VR不仅能带来游戏体验，它还可以成为艺术创造平台，谷歌的Tilt Brush VR绘图应用就是一个很好的例子。此前，我们曾看过用Tilt 
+Brush在VR空间</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/92.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">7</span>
+                                        <span class="fl ells ranking_con">拍洋画片已经过时 现在孩子都玩虚拟卡片了</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="http://image.vronline.com/newsimg/10040/355b3567eaf4b0e3fc2213ece63e885b1481275493426.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">拍洋画片已经过时 现在孩子都玩虚拟卡片了</span>
+                                            <p class="ells2">HTC与美国时代集团(TIME)旗下LIFE VR共同推出《铭记珍珠港》虚拟现实体验内容，用来纪念即将于12月7日满75周年、将美国带进第二次世界大战的珍珠港事</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                            </ul>
+            </div>
+            </div>
+    </div>
+    <div class="recommend_video">
+        <div class="title clearfix">
+            <h3 class="fl">推荐视频</h3>
+            <a class="fr" href="/news/list/7" target="_blank">更多</a>
+        </div>
+        <div>
+            <ul class="clearfix">
+                                                <li class="fl pr">
+                    <a href="/news/detail/192.html" target="_blank">
+                        <img src="http://image.vronline.com/bannerimg/1209/c1e828c3942cf33a5298c11eb2f5b044.jpg?imageView2/5/w/384/h/216" />
+                        <p class="play"></p>
+                        <p class="mask"></p>
+                        <p class="describe">奇葩VR新游《死亡饥饿》12月6日发售</p>
+                    </a>
+                </li>
+                                <li class="fl pr">
+                    <a href="/news/detail/181.html" target="_blank">
+                        <img src="http://image.vronline.com/bannerimg/1209/5da030d9b7181a15ac95ddf15b88a263.jpg?imageView2/5/w/384/h/216" />
+                        <p class="play"></p>
+                        <p class="mask"></p>
+                        <p class="describe">《外科手术模拟》最新重口味预告片公开</p>
+                    </a>
+                </li>
+                                <li class="fl pr">
+                    <a href="/news/detail/91.html" target="_blank">
+                        <img src="http://image.vronline.com/bannerimg/1209/189aebdf59609d5573e122c5923bfc5b.png?imageView2/5/w/384/h/216" />
+                        <p class="play"></p>
+                        <p class="mask"></p>
+                        <p class="describe">新手教学 PlayStationVR连接教程</p>
+                    </a>
+                </li>
+                                            </ul>
+        </div>
+    </div>
+</div>
+    <!-- <div class="friend_link">
+        <div class="title clearfix">
+            <h3 class="fl">友情链接</h3>
+        </div>
+    </div> -->
+    <div class="foot">
+        <div class="VR_foot">
+            <!-- <div class="aboutUS">
+            <a href="http://www.kingnet.com" target="_blank">关于VRonline</a>
+            <a  href="http://www.kingnet.com" target="_blank">关于恺英</a>
+            </div> -->
+            <div class="aboutUS">
+                <a href="http://www.vronline.com/vronline" target="_blank">关于VRonline</a>
+                <a href="http://www.kingnet.com" target="_blank">关于恺英</a>
+                <a href="javascript:;">商务合作</a>
+                <a href="http://open.vronline.com" target="_blank">我是开发者</a>
+                <a href="http://developer.deepoon.com/" target="_blank">大朋开发者</a>
+            </div>
+            <div class="police">
+            <a class="clearfix" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011202001649">
+                <img class="fl" src="http://pic.vronline.com/website/images/pl.png?34" />
+                <p class="fl">沪公网安备 31011202001649号</p>
+            </a>
+            </div>
+            <p>
+            <span>沪网文[2013]0667-082</span>
+            <span>沪ICP备10215773号-37</span>
+            <span>文化部网络游戏举报和联系电子邮箱:</span>
+            <a href="Mailto:wlyxjb@gmail.com">wlyxjb@gmail.com</a>
+            </p>
+            <p>
+            <span>Copyright&copy;2008-2015 vronline.com All Rights Reserved</span>
+            <span>上海恺英网络科技有限公司 版权所有</span>
+            </p>
+        </div>
+    </div>
+     <script src="http://pic.vronline.com/news/js/jquery-1.12.3.min.js"></script>
+<script src="http://pic.vronline.com/news/min/js/vmc.slider.full.js"></script>
+<!--轮播-->
+<script type="text/javascript">
+    $(function() {
+        $('#slider').vmcSlider({
+            width: 730,
+            height: 310,
+            gridCol: 10,
+            gridRow: 5,
+            gridVertical: 20,
+            gridHorizontal: 10,
+            autoPlay: true,
+            ascending: true,
+            effects: [
+                'fade', 'fadeLeft', 'fadeRight', 'fadeTop', 'fadeBottom', 'fadeTopLeft', 'fadeBottomRight',
+                'blindsLeft', 'blindsRight', 'blindsTop', 'blindsBottom', 'blindsTopLeft', 'blindsBottomRight',
+                'curtainLeft', 'curtainRight', 'interlaceLeft', 'interlaceRight', 'mosaic', 'bomb', 'fumes'
+            ],
+            ie6Tidy: false,
+            random: false,
+            duration: 2000,
+            speed: 900
+        });
+    });
+</script>
+     <script type="text/javascript">
+        $("body").delegate(".listClass","click",function(){
+            location.href = "http://"+ document.domain +"/news/list/" + $(this).attr("data-catid");
+        });
+        $("body").delegate(".catDetail","click",function(){
+            window.open("http://"+ document.domain +"/news/detail/" + $(this).attr("data-id") + ".html");
+        });
+        //左侧热门栏目js动效
+        $(".detail-top a").on('click', function(){
+            $(this).addClass('cur').siblings().removeClass('cur')
+            var targetClass = $(this).attr('id') + '_hot';
+            banner(targetClass);
+        });
+
+        function banner(rse) {
+            var classArr = ['detail-top-news_hot', 'detail-top-game_hot', 'detail-top-video_hot'];
+            var last = classArr.length;
+            $.each(classArr,function(key,val){
+                if(val == rse) {
+                    $("."+rse).show();
+                } else {
+                    $("."+val).hide();
+                }
+
+            });
+        }
+
+        //热门排行榜
+        $('.popular_recommende .title div a').hover(function(){
+            var i = $(this).index();
+            $(this).parents('.popular_recommende').find('.recommende_con').eq(i).addClass('shows').siblings().removeClass('shows');
+        });
+        $('.recommende_con ul li a').hover(function(){
+            $(this).find("div:first-child").addClass('conceal');
+            $(this).children(".bewrite").addClass('shows');
+            $(this).parent().siblings().children().find("div:first-child").removeClass('conceal');
+            $(this).parent().siblings().children().children(".bewrite").removeClass('shows');
+        });
+
+     </script>
+</body>
+</html>

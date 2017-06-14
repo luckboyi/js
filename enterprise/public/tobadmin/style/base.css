@@ -1,0 +1,74 @@
+/*
+* @Author: zhengy
+* @Date:   2016-12-07 14:52:17
+* @Last Modified by:   zhengy
+* @Last Modified time: 2017-03-14 18:18:49
+*/
+/* 初始化 */
+/* 默认滚动条的样式 */
+::-webkit-scrollbar { width: 8px; height: 6px; margin-right: 6px; position: absolute;z-index: 999999;}
+::-webkit-scrollbar-thumb:vertical:hover{background: #8196b0;}
+::-webkit-scrollbar-track-piece { background-color: #191f2d; margin: -2px; }
+::-webkit-scrollbar-thumb { background: #2d3744; min-height: 150px; min-width: 150px; border-radius: 10px; }
+body, div, b, ul, li, ol, h1, h2, h3, h4, h5, h6, input, textarea, select, p, dl, dt, dd, a, img, button, form, table, th, tr, td, tbody, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin: 0; padding: 0; border: none; font-weight: normal; }
+body { font: 12px Microsoft YaHei, Tahoma, Arial, sans-serif; color: #505e70; background: #191f2d url("../assets/bg.jpg") no-repeat top center; }
+em, i { font-style: normal; }
+strong { font-weight: normal; }
+.clearfix:after { content: ""; display: block; visibility: hidden; height: 0; clear: both; }
+.clearfix { zoom: 1; }
+.fl { float: left; }
+.fr { float: right; }
+a { font-size: 12px; text-decoration: none; color: #969696; display: inline-block; font-family: Microsoft YaHei, Tahoma, Arial, sans-serif; }
+a:hover { text-decoration: none; color: #969696; }
+ul, ol { list-style: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-family: Microsoft YaHei; font-weight: normal; }
+img { border: none; display: block; }
+.pa { position: absolute; }
+.pr { position: relative; }
+.ells { white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis; overflow: hidden; }
+::-webkit-input-placeholder {    /* WebKit browsers */
+color: #505e70; }
+:-moz-placeholder {    /* Mozilla Firefox 4 to 18 */
+color: #505e70; }
+::-moz-placeholder {    /* Mozilla Firefox 19+ */
+color: #505e70; }
+:-ms-input-placeholder {    /* Internet Explorer 10+ */
+color: #505e70; }
+.f12 { font-size: 12px; }
+.f14 { font-size: 14px; }
+.f16 { font-size: 16px; }
+.f18 { font-size: 18px; }
+.f20 { font-size: 20px; }
+.f22 { font-size: 22px; }
+.f24 { font-size: 24px; }
+.f26 { font-size: 26px; }
+.f28 { font-size: 28px; }
+.f30 { font-size: 30px; }
+.tac { text-align: center; }
+.tal { text-align: left; }
+.icon, .up_icon, .down_icon { width: 16px; height: 16px; position: absolute; background: url("../assets/icon.png") no-repeat 0 0; }
+.cp { cursor: pointer; }
+.cd { cursor: default; }
+.blueCol { color: #169bd6 !important; }
+.blueCol2 { color: #2ca8ff !important; }
+.erroCol { color: #c83435 !important; }
+.msg_num { background: #c83435; border-radius: 50px; padding: 0 4px; height: 14px; line-height: 14px; font-size: 12px; color: #efc9c9; top: -2px; right: -4px; }
+.select2_icon { width: 14px; height: 14px; background-position: -70px -42px; top: 50%; margin-top: -7px; right: -74px; }
+.select2_icon.selected { background-position: -84px -42px; }
+
+/*提示弹框的样式*/
+.tips_container { width: 100%; height: 100%; position: absolute; background: rgba(0, 0, 0, .5); z-index: 9999; left: 0; top: 0; }
+.tips_container .in_tips { left: 50%; top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -o-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%); padding: 12px; background: #1c202a; border: 1px solid #000; min-width: 360px; }
+.tips_container .in_tips .head { width: 100%; height: 48px; line-height: 48px; }
+.close_icon { background-position: -70px 0; width: 9px; height: 9px; cursor: pointer; right: 0; top: 50%; transform: translateY(-50%); -webkit-transform: translateY(-50%); }
+.close_icon:hover { background-position: -79px 0; }
+.tips_container .in_tips .body { background: #151920; padding: 30px 40px; margin: 10px 0; }
+.tips_container .in_tips .foot ul { display: inline-block; }
+.tips_container .in_tips .foot ul li { width: 100px; line-height: 28px; border: 1px solid #000; background: #384455; color: #a9bad0; cursor: pointer; margin: 0 6px; }
+.tips_container .in_tips .foot ul li:hover { background: #425067; }
+.tips_container .in_tips .foot ul li:active { background: #2d3645; }
+.icon_container { display: inline-block; height: 40px; width: 100%; }
+.icon_container .warning_icon { width: 36px; height: 36px; background-position: -31px -26px; left: 50%; margin-left: -18px; }
+.tips_container .msg_con p { line-height: 24px; }
+.suc_icon { background-position: -33px -65px; width: 36px; height: 36px; left: 122px; top: 50%; margin-top: -24px; }
+.hide { display: none; }

@@ -1,0 +1,20 @@
+
+{
+	"data":{
+		"headimg":"http://zhengyi.date/plante/src/image/gameimg1.png",
+        "nike":"dsfafa",
+        "profession":"zhengyi",
+        "option":[
+          {
+            "isselect":0,
+            "theme":"性别",
+            "themeCon":["男","女"]
+          },
+          {
+            "isselect":0,
+            "theme":"婚姻",
+            "themeCon":["单身","未婚"]
+          }
+        ]
+	}
+}

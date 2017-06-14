@@ -1,0 +1,26 @@
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,img,hr{margin:0;padding:0;vertical-align:baseline;font-weight: normal;}
+html,body{background:#eeeff2;font-family:'微软雅黑';color:#fff; -webkit-text-size-adjust:none;-webkit-font-smoothing: antialiased;}
+ol,ul,li{list-style:none;}
+.clearfix{*zoom:1;}
+.clearfix:after{clear:both;content:".";display:block;height:0;visibility:hidden;}
+input::-webkit-input-placeholder{color: #d1d0d0;}
+input{outline: none;}
+a{text-decoration: none;}
+.pr{  position: relative;}
+.pa{  position: absolute;}
+.fl{ float: left;}
+.fr{ float: right;}
+.tac{text-align: center;}
+.tal{text-align: left;}
+.f14{  font-size: 14px !important;  }
+.f12{font-size: 12px !important;}
+.f16{font-size: 16px !important;}
+.f18{font-size: 18px !important;}
+.f20{font-size: 20px !important;}
+.f22{font-size: 22px !important;}
+.f24{font-size: 24px !important;}
+.f26{font-size: 26px !important;}
+.fw{font-weight: 600 !important;}
+
+.blueColor{color: #03a9f4;}
+.errorColor{color: #ea5a5a;}

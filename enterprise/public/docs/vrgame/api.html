@@ -1,0 +1,428 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>VR游戏 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../webgame/interface.html" />
+    
+    
+    <link rel="prev" href="intro.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    版本记录
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="intro.html">
+            
+                <a href="intro.html">
+            
+                    
+                    VR游戏接入文档
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="api.html">
+            
+                <a href="api.html">
+            
+                    
+                    VR游戏
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../webgame/interface.html">
+            
+                <a href="../webgame/interface.html">
+            
+                    
+                    页游接入文档
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../pic/all.html">
+            
+                <a href="../pic/all.html">
+            
+                    
+                    素材尺寸
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >VR游戏</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x5145;&#x503C;&#x63A5;&#x53E3;&#x8BF4;&#x660E;">&#x5145;&#x503C;&#x63A5;&#x53E3;&#x8BF4;&#x660E;</h3>
+<h4 id="1&#x6B64;&#x63A5;&#x53E3;&#x76EE;&#x7684;&#x662F;&#x4E3A;&#x6E38;&#x620F;&#x63D0;&#x4F9B;&#x4F8B;&#x5982;&#x8D2D;&#x4E70;&#x8D27;&#x5E01;&#x3001;&#x5546;&#x54C1;&#x7B49;&#x652F;&#x4ED8;&#x529F;&#x80FD;">1.&#x6B64;&#x63A5;&#x53E3;&#x76EE;&#x7684;&#x662F;&#x4E3A;&#x6E38;&#x620F;&#x63D0;&#x4F9B;&#x4F8B;&#x5982;&#x8D2D;&#x4E70;&#x8D27;&#x5E01;&#x3001;&#x5546;&#x54C1;&#x7B49;&#x652F;&#x4ED8;&#x529F;&#x80FD;</h4>
+<h4 id="2&#x8C03;&#x7528;&#x6B64;&#x63A5;&#x53E3;&#xFF0C;&#x9700;&#x542F;&#x52A8;vronline&#x5E73;&#x53F0;&#x5E76;&#x767B;&#x5F55;&#x8D26;&#x53F7;">2.&#x8C03;&#x7528;&#x6B64;&#x63A5;&#x53E3;&#xFF0C;&#x9700;&#x542F;&#x52A8;VRonline&#x5E73;&#x53F0;&#x5E76;&#x767B;&#x5F55;&#x8D26;&#x53F7;</h4>
+<h4 id="3&#x521D;&#x59CB;&#x63A5;&#x53E3;">3.&#x521D;&#x59CB;&#x63A5;&#x53E3;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x540D;&#x79F0;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>gamename</td>
+<td>&#x6E38;&#x620F;&#x540D;</td>
+</tr>
+<tr>
+<td>hwnd</td>
+<td>&#x6E38;&#x620F;&#x4E3B;&#x7A97;&#x53E3;&#x53E5;&#x67C4;</td>
+</tr>
+<tr>
+<td>appid</td>
+<td>&#x7B2C;&#x4E09;&#x65B9; &#x540E;&#x53F0;&#x63D0;&#x4EA4;&#x83B7;&#x53D6;&#x5230;&#x7684;&#xFF0C;&#x9488;&#x5BF9;&#x6CA1;&#x4E2A;&#x4EA7;&#x54C1;&#x552F;&#x4E00;id</td>
+</tr>
+<tr>
+<td>paykey</td>
+<td>&#x540E;&#x53F0;&#x83B7;&#x53D6;</td>
+</tr>
+<tr>
+<td>appkey</td>
+<td>&#x540E;&#x53F0;&#x83B7;&#x53D6;</td>
+</tr>
+<tr>
+<td>serverid</td>
+<td>&#x6CA1;&#x6709;&#x53EF;&#x4EE5;&#x4E0D;&#x4F20;</td>
+</tr>
+<tr>
+<td>logpath</td>
+<td>log&#x6587;&#x4EF6;&#x5B58;&#x653E;&#x4F4D;&#x7F6E; &#x9ED8;&#x8BA4;&#x653E;&#x5728;&#x5F53;&#x524D;&#x76EE;&#x5F55;  </td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-cpp">VRONLINAPI <span class="token keyword">bool</span> <span class="token function">VRonline_ApiInitialize<span class="token punctuation">(</span></span><span class="token keyword">const</span> <span class="token keyword">wchar_t</span><span class="token operator">*</span> gamename<span class="token punctuation">,</span>
+                                        <span class="token keyword">unsigned</span> <span class="token keyword">long</span> hwnd<span class="token punctuation">,</span> 
+                                        <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> appid<span class="token punctuation">,</span>
+                                        <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> appkey<span class="token punctuation">,</span>
+                                        <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> paykey<span class="token punctuation">,</span>
+                                        <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> serverid <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">,</span>
+                                        <span class="token keyword">const</span> <span class="token keyword">wchar_t</span><span class="token operator">*</span> logpath <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h4 id="&#x4EE3;&#x7801;&#x793A;&#x4F8B;">&#x4EE3;&#x7801;&#x793A;&#x4F8B;</h4>
+<pre><code class="lang-cpp"><span class="token function">assert<span class="token punctuation">(</span></span><span class="token function">VRonline_ApiInitialize<span class="token punctuation">(</span></span>L<span class="token string">&quot;Test&quot;</span><span class="token punctuation">,</span> 
+                            <span class="token punctuation">(</span><span class="token keyword">unsigned</span> <span class="token keyword">long</span><span class="token punctuation">)</span>hWnd<span class="token punctuation">,</span> 
+                            <span class="token string">&quot;1000014&quot;</span><span class="token punctuation">,</span> 
+                            <span class="token string">&quot;EsnG7bJuh-0I_58CaLmSaZpsjqOSzk7o&quot;</span><span class="token punctuation">,</span> 
+                            <span class="token string">&quot;aOWucoAiTalPC1QKgqvmRvph9wCAP_Aa&quot;</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h4 id="4&#x8BBE;&#x7F6E;&#x652F;&#x4ED8;&#x56DE;&#x8C03;">4.&#x8BBE;&#x7F6E;&#x652F;&#x4ED8;&#x56DE;&#x8C03;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x540D;&#x79F0;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>code</td>
+<td>&#x8FD4;&#x56DE;&#x7684;&#x9519;&#x8BEF;&#x7801; 0&#x662F;&#x6210;&#x529F;</td>
+</tr>
+<tr>
+<td>msg</td>
+<td>&#x8FD4;&#x56DE;&#x6D88;&#x606F;&#x63D0;&#x793A;</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-cpp"><span class="token keyword">typedef</span> <span class="token keyword">void</span> <span class="token punctuation">(</span>VRONLINECALL <span class="token operator">*</span>VRonline_OpenApiPayCallBackFunc<span class="token punctuation">)</span><span class="token punctuation">(</span><span class="token keyword">int</span> code<span class="token punctuation">,</span> <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> msg<span class="token punctuation">)</span><span class="token punctuation">;</span>
+VRONLINAPI <span class="token keyword">void</span> <span class="token function">VRonline_SetPayCallBack<span class="token punctuation">(</span></span>VRonline_OpenApiPayCallBackFunc callbackfunc<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h4 id="&#x4EE3;&#x7801;&#x793A;&#x4F8B;">&#x4EE3;&#x7801;&#x793A;&#x4F8B;</h4>
+<pre><code class="lang-cpp">    <span class="token keyword">void</span> <span class="token function">PayCallBack<span class="token punctuation">(</span></span><span class="token keyword">int</span> code<span class="token punctuation">,</span> <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> msg<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        std<span class="token operator">::</span>cout <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;ret code[&quot;</span> <span class="token operator">&lt;&lt;</span> code <span class="token operator">&lt;&lt;</span>&#x3000;<span class="token string">&quot;], msg[&quot;</span> <span class="token operator">&lt;&lt;</span> msg <span class="token operator">&lt;&lt;</span> <span class="token string">&quot;].&quot;</span> <span class="token operator">&lt;&lt;</span> std<span class="token operator">::</span>endl<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+    <span class="token function">VRonline_SetPayCallBack<span class="token punctuation">(</span></span>PayCallBack<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h4 id="5&#x8D2D;&#x4E70;&#x9053;&#x5177;">5.&#x8D2D;&#x4E70;&#x9053;&#x5177;</h4>
+<p>&#x662F;&#x5426;&#x6210;&#x529F;&#x5931;&#x8D25;&#x5728;&#x8FD9;&#x4E2A;&#x56DE;&#x8C03;&#x4E2D; VRonline_OpenApiPayCallBackFunc</p>
+<table>
+<thead>
+<tr>
+<th>&#x540D;&#x79F0;</th>
+<th>&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>item_id</td>
+<td>&#x7269;&#x54C1;id</td>
+</tr>
+<tr>
+<td>item_price</td>
+<td>&#x5355;&#x4EF7;</td>
+</tr>
+<tr>
+<td>item_name</td>
+<td>&#x7269;&#x54C1;&#x540D;</td>
+</tr>
+<tr>
+<td>item_img_url</td>
+<td>&#x7269;&#x54C1;&#x56FE;&#x7247;url</td>
+</tr>
+<tr>
+<td>total_rmb</td>
+<td>&#x8981;&#x5145;&#x503C;&#x591A;&#x5C11;rmb</td>
+</tr>
+<tr>
+<td>is_dev</td>
+<td>&#x662F;&#x5426;&#x6D4B;&#x8BD5;&#xFF0C;&#x8FD9;&#x4E2A;&#x8981;&#x53BB;&#x540E;&#x53F0;&#x7BA1;&#x7406;&#x5458;&#x83B7;&#x53D6;&#x652F;&#x6301;</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="lang-cpp">VRONLINAPI <span class="token keyword">bool</span> <span class="token function">VRonline_PayItem<span class="token punctuation">(</span></span><span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> item_id<span class="token punctuation">,</span> 
+                                    <span class="token keyword">float</span> item_price<span class="token punctuation">,</span> 
+                                    <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> item_name<span class="token punctuation">,</span> 
+                                    <span class="token keyword">const</span> <span class="token keyword">char</span><span class="token operator">*</span> item_img_url<span class="token punctuation">,</span> 
+                                    <span class="token keyword">float</span> total_rmb<span class="token punctuation">,</span> 
+                                    <span class="token keyword">bool</span> is_dev <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<h4 id="&#x4EE3;&#x7801;&#x793A;&#x4F8B;-">&#x4EE3;&#x7801;&#x793A;&#x4F8B; ###</h4>
+<pre><code class="lang-cpp"><span class="token function">VRonline_PayItem<span class="token punctuation">(</span></span><span class="token string">&quot;7&quot;</span><span class="token punctuation">,</span> 
+    <span class="token number">0</span><span class="token punctuation">.</span>01f<span class="token punctuation">,</span> 
+    <span class="token string">&quot;ceshi&quot;</span><span class="token punctuation">,</span> 
+    <span class="token string">&quot;http://img3.duitang.com/uploads/item/201411/07/20141107220551_TMMsE.jpeg&quot;</span><span class="token punctuation">,</span> 
+    <span class="token number">1</span><span class="token punctuation">.</span>0f<span class="token punctuation">,</span> 
+    <span class="token boolean">false</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="intro.html" class="navigation navigation-prev " aria-label="Previous page: VR游戏接入文档">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../webgame/interface.html" class="navigation navigation-next " aria-label="Next page: 页游接入文档">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"VR游戏","level":"1.2.1","depth":2,"next":{"title":"页游接入文档","level":"1.3","depth":1,"path":"webgame/interface.md","ref":"webgame/interface.md","articles":[]},"previous":{"title":"VR游戏接入文档","level":"1.2","depth":1,"path":"vrgame/intro.md","ref":"vrgame/intro.md","articles":[{"title":"VR游戏","level":"1.2.1","depth":2,"path":"vrgame/api.md","ref":"vrgame/api.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["book-summary-scroll-position-saver","prism","mermaid","-highlight"],"pluginsConfig":{"prism":{"css":["prismjs/themes/prism-okaidia.css"]},"book-summary-scroll-position-saver":{},"mermaid":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"vrgame/api.md","mtime":"2016-12-12T09:20:18.000Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2016-12-12T11:13:12.165Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-book-summary-scroll-position-saver/book-summary-scroll-position-saver.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

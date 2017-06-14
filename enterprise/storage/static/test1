@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=9" />
+		<meta name="keywords" content="VR游戏、VR视频">
+		<meta name="description" content="这是vronline">
+		<meta name="renderer" content="webkit">
+				<!--页面的Title-->
+		<title>关于VRonline </title>
+		<!--页面的Title End-->
+				<link href="http://pic.vronline.com/common/style/base.css?5" rel="stylesheet">
+		<link href="http://pic.vronline.com/common/style/login.css?5" rel="stylesheet">
+		<link href="http://pic.vronline.com/website/style/headeFooter.css?5" rel="stylesheet">
+				<link href="http://pic.vronline.com/website/style/VRhome.css?5" rel="stylesheet">
+				<link href="http://pic.vronline.com/website/style/home.css?5" rel="stylesheet">
+		<link href="http://pic.vronline.com/website/style/valiant360.css?5" rel="stylesheet">
+				<script src="http://pic.vronline.com/common/js/jquery-1.12.3.min.js?5"></script>
+		
+			</head>
+	<body >
+				<header>
+			<div class='top clearfloat'>
+				<div class='fl left'>
+					<a class="home_logo" href="http://www.vronline.com/"><img src='http://pic.vronline.com/website/images/logo.png' /></a>
+					<a class='' href='http://www.vronline.com'>首页</a><a class='' href='http://www.vronline.com/charge'>充值中心</a><a class='' href='http://www.vronline.com/down'>下载中心</a><a class='sy' href='http://www.vronline.com/vronline'>关于VRonline</a>
+				</div>
+				<div class='fr right clearfix'>
+					<a class='fl blue' href='http://dldir1.qq.com/qqfile/qq/QQ8.7/19113/QQ8.7.exe'>安装VRonline</a>
+										<a class='login' href="http://www.vronline.com/login">登录</a>
+													</div>
+		</header>
+				<section class='sec'>
+						<div class="sec_nav">
+				<div class="nav clearfloat">
+					<ul class='fl clearfloat'>
+						<li class="fl">
+							<a href='http://www.vronline.com/vrgame'><span>VR游戏</span></a>
+						</li>
+						<li class="fl">
+							<a href='http://www.vronline.com/media'><span>多媒体</span></a>
+							<!-- <div class='con'>
+									<a href='http://www.vronline.com/media'>全景VR</a>
+									<a href='http://www.vronline.com/media'>游戏视频</a>
+									<a href='http://www.vronline.com/media'>风景名胜</a>
+							</div> -->
+						</li>
+						<li class="fl">
+							<a href='http://www.vronline.com/webgame'><span>网页游戏</span></a>
+						</li>
+						<li class="fl">
+							<a href='http://www.vronline.com/device'><span>设备支持</span></a>
+						</li>
+					</ul>
+					<!--<div class='search fr'>
+									<input class='txt' type='text' placeholder="请输入游戏名称" />
+									<input type='submit' value='' class='sub' />
+					</div>-->
+				</div>
+			</div>
+						<div class="VRonline">
+	<img class="img" src="http://pic.vronline.com/website/images/VRonlineTopBg.png" />
+	<div class="VRonline_down">
+		<div class="install">
+			<p class="welcome">欢迎至VRonline 娱乐平台</p>
+			<p>享受虚拟现实、游戏体验、合作发布及更多</p>
+			<a href="http://www.vronline.com/down"></a>
+		</div>
+	</div>
+	<ul class="clearfix">
+		<li class="fl VRgames">
+			<a class="li_a" href="http://www.vronline.com/vrgame">
+				<div class="frame"></div>
+				<div class="gamespic"></div>
+				<div class='games_mask'></div>
+				<div>
+					<span>
+						<p>体验VR游戏</p>
+					</span>
+					<p class="VRgamesTxt">我们将不断为广大玩家提供<br />丰富的VR游戏体验， <br />通过VR设备连接，体验身历其境的游戏感受。<br />另外，还可以享受到游戏下载、安装、<br />自动更新以及更多的特色服务。</p>
+					<a class="Abtn" href="http://www.vronline.com/vrgame">浏览VR游戏></a>
+				</div>
+			</a>
+		</li>
+		<li class="fl VRvideos">
+			<a class="li_a" href="http://www.vronline.com/media">
+				<div class="frame"></div>
+				<div class="gamespic"></div>
+				<div class='games_mask'></div>
+				<div>
+					<span>
+						<p>丰富的VR视频</p>
+					</span>
+					<p class="VRgamesTxt">不出家门，您可以在VRonline<br />娱乐平台上找到 <br />丰富的视频资源，<br />丰富的视频资源，<br />浏览全景视频、<br />游戏视频和世界各地的风景名胜之地。</p>
+					<a class="Abtn" href="http://www.vronline.com/media">浏览多媒体></a>
+				</div>
+			</a>
+		</li>
+		<li class="fl share">
+			<a class="li_a" href="http://www.vronline.com/contact">
+				<div class="frame"></div>
+				<div class="gamespic"></div>
+				<div class='games_mask'></div>
+				<div>
+					<span>
+						<p>分享与发布</p>
+					</span>
+					<p class="VRgamesTxt">我们为开发者提供一个专注于<br />VR游戏的自主发布平台， <br />将为每位开发者<br />提供私人定制的平台特色服务<br />和游戏管理综合服务。</p>
+					<a class="Abtn" href="http://www.vronline.com/contact">商务合作></a>
+				</div>
+			</a>
+		</li>
+	</ul>
+</div>
+						<div class="side">
+				<div class="sideCon">
+					<p>联系我们</p>
+					<ul>
+						<li>
+							<a href="javascript:;"><span class="service">QQ交流群</span></a>
+							<div class="follow qq_follow">
+								<img src="http://pic.vronline.com/website/images/qq.png" />
+							</div>
+						</li>
+						<li>
+							<a href="http://weibo.com/6041941286/profile?topnav=1&wvr=6" target="_blank"><span class="sina">新浪微博</span></a>
+							<div class="follow sina_follow">
+								<img src="http://pic.vronline.com/website/images/sina.png" />
+							</div>
+						</li>
+						<li>
+							<a href="javascript:;"><span class="code"></span></a>
+							<div class="follow">
+								<img src="http://pic.vronline.com/website/images/VRonline_platform.jpg" />
+								<img style="margin-top:8px;" src="http://pic.vronline.com/website/images/VRonline_game.jpg" />
+							</div>
+						</li>
+						<li><a href='#'><span class="up">返回顶部</span></a></li>
+					</ul>
+				</div>
+			</div>
+					</section>
+				<footer>
+			<div class='foot'>
+				<a class="foot_logo" href="http://www.vronline.com/"><img src="http://pic.vronline.com/website/images/logo.png" /></a>
+				<div class="aboutUS">
+					<a href="http://www.vronline.com/vronline" target="_blank">关于VRonline</a>
+					<a href="http://www.kingnet.com/" target="_blank">关于恺英</a>
+					<a href="http://www.vronline.com/contact" target="_blank">商务合作</a>
+					<a class='none' href="http://open.vronline.com/" target="_blank">我是开发者</a>
+				</div>
+				<div class="hide">
+					<span>友情链接：</span>
+					<a href="javascript:;">OculusRift贴吧</a>
+					<a href="javascript:;">妖界VRVR</a>
+					<a href="javascript:;">345导航</a>
+					<a href="javascript:;">VR科技网</a>
+					<a href="javascript:;">一起爱VR</a>
+					<a href="javascript:;">VR玩家</a>
+					<a href="javascript:;">智壹VR网</a>
+					<a href="javascript:;">07073VR</a>
+					<a href="javascript:;">VR眼镜vr论坛</a>
+					<a href="javascript:;">vv麦逗VR</a>
+					<a href="javascript:;">VR专业导航网站</a>
+					<a class='none' href="javascript:;">高手VR</a>
+				</div>
+				<div style="width:300px;margin:0 auto; " >
+					<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011202001649" style="border:0;display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="http://pic.vronline.com/website/images/pl.png" style="float:left;"/><p  class=""  style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; ">沪公网安备 31011202001649号</p></a>
+				</div>
+				<p>
+					<span>沪网文[2013]0667-082</span>
+					<span>沪ICP备16034129号-1</span>
+					<span>文化部网络游戏举报和联系电子邮箱:</span>
+					<a href="Mailto:wlyxjb@gmail.com" style="border: none;">wlyxjb@gmail.com</a>
+				</p>
+				<p>
+					<span>Copyright&copy;2008-2015 vronline.com All Rights Reserved</span>
+					<span>上海恺英网络科技有限公司 版权所有</span>
+				</p>
+			</div>
+		</footer>
+				<script src="http://pic.vronline.com/common/js/datacenter_stat.js?5"></script>
+		<script src="http://pic.vronline.com/common/js/ClientConfig.js?5"></script>
+		<script src="http://pic.vronline.com/website/js/three.min.js?5"></script>
+		<script src="http://pic.vronline.com/website/js/jquery.valiant360.js?5"></script>
+		<script src="http://pic.vronline.com/website/js/bannerVideo.js?5"></script>
+		<script src="http://pic.vronline.com/common/js/platform.js?5"></script>
+		<script src="http://pic.vronline.com/website/js/base.js?5"></script>
+		<script type="text/javascript">
+		//导航条
+		$('.nav ul li').each(function(){
+			$(this).mouseover(function(){
+				$(this).children('.con').show();
+			});
+			$(this).mouseout(function(){
+				$(this).children('.con').hide();
+			})
+		});
+
+		$(".website-link").click(function(){
+			var link_to=$(this).attr("link-to");
+			if(!link_to){
+				return false;
+			}
+			window.location.href=link_to;
+		});
+
+		/**
+		 * VR游戏详情
+		 */
+		$("body").delegate(".show-vrgame-detail", 'click', function(event) {
+			var appid=$(this).attr("appid");
+			var json={
+				game_id:appid
+			};
+			PL.callFun('gamelistframe', 'item_clicked', json);
+			location.href = "/vrgame/" + appid;
+		});
+
+		/**
+		 * 页游详情
+		 */
+		$("body").delegate('.show-webgame-detail', 'click', function(event) {
+	    	var appid=$(this).attr("appid");
+	    	console.log(appid);
+	    	window.location.href="/webgame/"+appid;
+	    });
+
+		/**
+		 * 开始页游，进入选服务器
+		 */
+	    $("body").delegate('.start-web-game-server', 'click', function(event) {
+	    	var appid=$(this).attr("game-id");
+	    	var appname=$(this).attr("game-name");
+	    	var json={
+	    		gameid:appid,
+	        	gamename:appname,
+	        	gameSrc:ClientConfig.Host + "/servers/" + appid
+	    	};
+	    	PL.startGame(json);
+	    });
+
+	    /**
+	     * 页游进入具体服务器
+	     */
+	    $("body").delegate('.start-web-game', 'click', function(event) {
+	    	var gameid=$(this).attr("game-id");
+			if(!gameid){
+				return false;
+			}
+			var json={
+				gameid:gameid,
+				gamename: $(this).attr("game-name"),
+				areaid:$(this).attr("server-id"),
+				areaname:$(this).attr("server-name")
+			};
+			PL.startGame(json);
+	    });
+
+		</script>
+			</body>
+</html>

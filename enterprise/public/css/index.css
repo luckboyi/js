@@ -1,0 +1,611 @@
+/*首页*/
+.home{
+	background:url(../img/background.jpg) no-repeat;
+	color:#ffffff;
+}
+.home header{
+	background: rgba(11,15,20,0.5);
+	height:72px;
+	border-bottom: 1px solid #000000;
+	font-size:14px;
+}
+.home header .top{
+	width:1190px;
+	margin:0 auto;
+	line-height:72px;
+}
+.home header .top .left a{
+	padding-left:30px;
+}
+.home header .top .left img{
+	text-align:center;
+	vertical-align: middle;
+}
+a{
+	font-size:14px;
+	color:#909090;
+}
+.sy{
+	color:#FFFFFF;
+}
+.blue{
+	color:#0096ff;
+	padding-left:22px;
+	background:url(../img/down.png) no-repeat left center;
+}
+.login{
+	padding:0 8px 0 48px;
+	border-right:1px solid #909090;
+}
+.language{
+	padding-right:10px;
+	margin-right:24px;
+	background:url(../img/triangle.png) no-repeat right center;
+}
+.sec{
+	position:relative;
+}
+.sec .sec_nav{
+	width:1190px;
+	margin:0 auto;
+}
+.sec .nav{
+	margin:20px 0 16px 0;
+	background-color:#20426b;
+	border:1px solid #294971;
+}
+.sec .nav ul li{
+	position:relative;
+	height:28px;
+	line-height:28px;
+	padding:5px 0;
+	width:96px;
+	text-align: center;
+	color:#828f9e;
+}
+.sec .nav ul li span{
+	cursor:pointer;
+	display:block;
+	border-right:1px solid #1e527c;
+	font-family:Microsoft Yahei,Arial, Helvetica;
+}
+.sec .nav ul li:hover{
+	background:#23588c;
+	color:#b1d0f7;
+}
+.con{
+	display:none;
+	position:absolute;
+	left:0px;
+	top:38px;
+	width:96px;
+	z-index:10;
+}
+.con a{
+	display:block;
+	height:38px;
+	line-height:38px;
+	margin-top:1px;
+	text-align: center;
+	background:#245480;
+}
+.con a:hover{
+	background:#2666b2;
+	color:#b1d0f7;
+}
+.sec .nav .search{
+	width:220px;
+	height:28px;
+	margin:4px 0;
+	background-color:#152f53;
+	margin-right:22px;
+}
+.sec .nav .search .txt{
+	width:160px;
+	height:28px;
+	padding-left:10px;
+	color:#FFFFFF;
+	margin-top:-20px;
+	position:relative;
+	top:-10px;
+	background: rgba(0,0,0,0);
+}
+.sub{
+	width:40px;
+	height:28px;
+	background: url(../img/SearchIcon.png) no-repeat center center;
+	cursor:pointer;
+}
+.sec .tab{
+	position:relative;
+	z-index:9;
+	height:542px;
+	overflow:hidden;
+	margin-bottom:40px;
+}
+.sec .tab .prev,.sec .tab .next{
+	position:absolute;
+	z-index:9;
+}
+.sec .tab .down{
+	position:relative;
+	width:1190px;
+	margin:0 auto;
+}
+
+.sec .tab .down .vrdown{
+	display:block;
+	margin:0 auto;
+	width:200px;
+	height:62px;
+	background:url(../img/VRicon.png) no-repeat -300px -82px;
+}
+.sec .tab .down .vrdown:hover{
+	background:url(../img/VRicon.png) no-repeat -300px -157px;
+}
+.sec .tab .down .vrdown:active{
+	background:url(../img/VRicon.png) no-repeat -300px -228px;
+}
+
+
+.sec .tab .down .mask{
+	position:absolute;
+	right:0;
+	width:260px;
+	height:540px;
+	padding:0 16px;
+	text-align:center;
+	background:rgba(0,0,0,0.5);
+	z-index:99;
+}
+.mask .txt1{
+	font-size:18px;
+	color:#0096FF;
+	padding:74px 0 20px 0;
+}
+.mask .txt2{
+	font-size:14px;
+	line-height:20px;
+}
+.mask img{
+	padding:18px 0;
+}
+.sec .tab ul{
+	position:absolute;
+	width:999999999px;
+	height:542px;
+	z-index:1;
+}
+.sec .tab .prev,.sec .tab .next{
+	position:absolute;
+	top:225px;
+	display:block;
+	width:94px;
+	height:94px;
+}
+.sec .tab .prev{
+	display:none;
+	left:90px;
+	background:url(../img/VRicon.png) no-repeat -60px -119px;
+}
+.sec .tab .prev:hover{
+	background:url(../img/VRicon.png) no-repeat -60px -20px;
+}
+.sec .tab .next{
+	display:none;
+	right:90px; 
+	background:url(../img/VRicon.png) no-repeat -159px -119px;
+}
+.sec .tab .next:hover{
+	background:url(../img/VRicon.png) no-repeat -159px -20px;
+}
+.sec .tab ol{
+	position:absolute;
+	left:50%;
+	bottom:30px;
+	width:176px;
+	margin-left:-88px;
+	z-index:9;
+}
+.sec .tab ol li{
+	width:36px;
+	margin:0 4px;
+	height:4px;
+	background:#3b4659;
+}
+.active { 
+	background:#2797b4!important; 
+}
+.sec .games{
+	width:1190px;
+	margin:0 auto;
+	padding-bottom:26px;
+}
+.sec .games li{
+	position:relative;
+}
+.sec .games img{
+	display:block;
+	position:relative;
+	top:2px;
+	left:1px;
+	border:1px solid #000000;
+}
+.sec .games .games_tltle{
+	width:1190px;
+	height:26px;
+	border-bottom:1px solid #2e3645;
+}
+.title_name{
+	position:relative;
+	top:-24px;
+	padding:6px 0;
+	padding-left:38px;
+	color:#23a0bf;
+	border-bottom:2px solid #23a0bf;
+	background:url(../img/VRicon.png) no-repeat -20px -218px;
+}
+.sec .games .hot .title_name{
+	padding-left:34px;
+	background:url(../img/VRicon.png) no-repeat -20px -252px;
+}
+.sec .games .rm .title_name{
+	background:url(../img/VRicon.png) no-repeat -20px -340px;
+}
+.sec .games .video .title_name{
+	background:url(../img/VRicon.png) no-repeat -20px -311px;
+}
+.sec .games .webpage .title_name{
+	background:url(../img/VRicon.png) no-repeat -20px -282px;
+}
+
+.sec .games .news{
+	padding-bottom:56px;
+}
+.sec .games .news img{
+	width:388px;
+}
+.sec .games ul{
+	position:relative;
+	left:-10px;
+	top:-8px;
+	width:1218px;
+}
+.sec .games .news ul li:nth-child(2){
+	left:-5px;
+}
+.sec .games .news ul li:nth-child(3){
+	left:-10px;
+}
+.sec .games a{
+	display:block;
+}
+.sec .games .news ul li a{
+	position:absolute;
+	left:8px;
+	top:8px;
+	width:406px;
+	z-index:5;
+}
+.sec .games .news ul li .border{
+	position:relative;
+	z-index:9;
+	width:390px;
+	height:230px;
+	padding:8px;
+}
+.sec .games .news ul li:hover .border{
+	background:url(../img/Untitled-1.png) no-repeat;
+}
+.sec .games .news ul li a div{
+	margin-top:8px;
+}
+.sec .games .news .price{
+	color:#0096ff;
+}
+.sec .games .news ul li a p .old_price{
+	text-decoration:line-through;
+	margin-left:6px;
+}
+.sec .games .news ul li a p .state{
+	width:50px;
+	height:20px;
+	text-align: center;
+	line-height:20px;
+	background:#23a0bf;
+	color:#FFFFFF;
+	margin-right:15px;
+}
+/* 一周最热*/
+.sec .games .hot ul li a{
+	width:306px;
+}
+.sec .games .hot_border{
+	position:relative;
+	width:290px;
+	height:168px;
+	padding:8px;
+	z-index:10;	
+}
+.sec .games .hot ul{
+	width:1224px;
+}
+.sec .games .hot img{
+	position:absolute;
+	top:8px;
+	left:9px;
+	width:288px;
+	z-index:2;
+}
+.sec .games .hot ul li:hover .hot_border{
+	background:url(../img/Untitled-2.png) no-repeat;
+}
+.vitality{
+	width:60px;
+	height:20px;
+	color:#FFFFFF;
+	background:#23a0bf;
+	text-align:center;
+}
+.news_mask{
+	padding:0 6px;
+	width:274px;
+	height:26px;
+	line-height:26px;
+	background: rgba(59,71,89,0.9);
+	position:relative;
+	z-index:9;
+	top:-25px;
+	left:2px;
+}
+.sec .games .hot .news_mask{
+	width:276px;
+	top:-35px;
+	left:10px;
+}
+.triangle{
+	position:absolute;
+	left:9px;
+	top:9px;
+	width:0;
+	height:0;
+    border-top: 48px solid #000000;
+    border-right: 48px solid transparent;
+    z-index:99;
+    opacity:0.5;
+}
+.sec .games .txt{
+	position:absolute;
+	left:20px;
+	top:5px;
+	z-index:99;
+	width:48px;
+	height:48px;
+	color:#FFFFFF;
+	transform: rotate(-45deg);
+}
+.more{
+	margin-top:-22px;
+}
+.sec .games .hot ul li:nth-child(2){
+	left:-5px;
+}
+.sec .games .hot ul li:nth-child(3){
+	left:-10px;
+}
+.sec .games .hot ul li:nth-child(4){
+	left:-15px;
+}
+/*热门游戏*/
+.sec .games .rm{
+	margin-bottom:38px;
+}
+.sec .games .rm ul{
+	width:1228px;
+}
+.sec .games .rm ul li a img{
+	width:390px;
+}
+.sec .games .rm ul li .rm_border{
+	position:relative;
+	z-index:10;
+	width:390px;
+	height:230px;
+	padding:8px;
+}
+.sec .games .rm ul li:hover .rm_border{
+	background:url(../img/Untitled-3.png) no-repeat;
+}
+.sec .games .rm ul li a{
+	position:absolute;
+	left:8px;
+	top:6px;
+}
+.sec .games .rm .news_mask{
+	width:379px;
+	left:1px;
+}
+.sec .games .rm .li_two{
+	top:14px;
+}
+.sec .games .rm .li_two a img{
+	width:258px;
+}
+.sec .games .rm .li_two .rm_border{
+	position:relative;
+	z-index:10;
+	width:258px;
+	height:174px;
+	padding:8px;
+}
+.sec .games .rm .li_two:hover .rm_border{
+	background:url(../img/Untitled-4.png) no-repeat;
+}
+.sec .games .rm .li_two a{
+	position:absolute;
+	left:8px;
+	top:6px;
+}
+.sec .games .rm .li_two .news_mask{
+	width:247px;
+	left:1px;
+}
+.rm ul .li_two{
+	left:-7px;
+}
+.rm ul li:nth-child(3){
+	left:-14px;
+}
+.rm ul li:nth-child(4){
+	left:-21px;
+}
+.rm ul .li_two .describe{
+	margin-left:6px;
+	width:252px;
+	color:#5a697d;
+	font-size:12px;
+	padding-left:4px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.time{
+	position:absolute;
+	right:13px;
+	bottom:56px;
+	width:44px;
+	height:20px;
+	background: rgba(0,0,0,0.5);
+}
+.open{
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-40px;
+	margin-left:-24px;
+	z-index:9;
+	width:56px;
+	height:56px;
+}
+.sec .games .rm ul li:hover .open{
+	background:url(../img/VRicon.png) no-repeat -159px -229px;
+}
+/*侧边栏*/
+.sec .side{
+	position:relative;
+	width:1190px;
+	margin:0 auto;
+}
+.sec .sideCon{
+	position:fixed;
+	right:200px;
+	bottom:200px;
+	width:56px;
+	font-size:12px;
+	margin-left:20px;
+	text-align: center;
+	color:#6e7987;
+	line-height:20px;
+	z-index:99;
+}
+.sec .sideCon ul li{
+	background:#3b4659;
+	border:1px solid #000000;
+}
+.sec .sideCon ul li a{
+	display:block;
+	padding:10px;
+	width:32px;
+	height:32px;
+	border:1px solid #4f596a;
+}
+.sec .sideCon ul li:last-child{
+	margin-top:9px;
+}
+.sec .sideCon span{
+	display:block;
+	width:32px;
+	height:32px;
+}
+.sec .sideCon .service{
+	background:url(../img/VRicon.png) no-repeat -17px -67px;
+}
+.sec .sideCon .sina{
+	background:url(../img/VRicon.png) no-repeat -20px -107px;
+}
+.sec .sideCon .code{
+	background:url(../img/VRicon.png) no-repeat -20px -146px;
+}
+.sec .sideCon .up{
+	background:url(../img/VRicon.png) no-repeat -18px -184px;
+}
+/*footer样式*/
+footer{
+	background:#0d1219;
+	padding:30px 0;
+}
+footer .foot{
+	width:1190px;
+	margin:0 auto;
+	text-align:center;
+}
+footer .foot span{
+	color:#535d60;
+}
+footer .foot div:nth-child(2){
+	margin:20px 0 30px 0;
+	height:14px;
+	line-height:14px;
+	overflow:hidden;
+}
+footer .foot div:nth-child(2) a{
+	color:#23a0bf;
+	border-right:1px solid #23a0bf;
+}
+footer .foot div:nth-child(3){
+	margin-bottom:30px;
+	height:14px;
+	line-height:14px;
+	overflow:hidden;
+}
+footer .foot a{
+	font-size:14px;
+	padding-right:10px;
+	border-right:1px solid #859398;
+}
+.foot span{
+	color:#909090;
+	font-family:Microsoft Yahei,Arial, Helvetica;
+}
+footer .foot p{
+	font-size:14px;
+	line-height:24px;
+	color:#535d60;
+	font-family:Microsoft Yahei,Arial, Helvetica;
+}
+footer .foot .none{
+	border:none;
+}
+
+/*电脑分辨率低于1560px*/
+@media screen and (min-width: 960px) and (max-width: 1560px){
+	.sec .sec_nav{
+		width:1000px;
+		margin:0 auto;
+	}
+	.sec .tab .down{
+		position:relative;
+		width:1000px;
+		margin:0 auto;
+	}
+	.sec .tab .prev{
+		position:absolute;
+		left:40px; 
+		top:225px;
+	}
+	.sec .tab .next{
+		position:absolute;
+		right:40px; 
+		top:225px;
+	}
+}

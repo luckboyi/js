@@ -1,0 +1,41 @@
+{
+  "totalPrice":0,
+  "freight_sub":0,
+  "address":"上海市浦东新区博兴路616弄30号104室",
+  "cartdata":[
+    {
+      "id":"10001",
+      "url":"/detail/2000",
+      "icon":"http://zhengyi.date/plante/src/image/gameimg1.png",
+      "img":"http://zhengyi.date/plante/src/image/gameimg1.png",
+      "username":"1111111",
+      "isselect":true,
+      "info":"香奈儿 五号淡香水EDT 50ml 5号女士持久香水 圣诞礼物 情人节礼物",
+      "discount_msg":"平时价￥1500,已享受",
+      "discount_state":"限时降价",
+      "goods_num":"10盒",
+      "price":200,
+      "isfreight":false,
+      "freight":10,
+      "num":1,
+      "isleftswipe":false
+    },
+    {
+      "id":"10001",
+      "url":"/detail/2000",
+      "icon":"http://zhengyi.date/plante/src/image/gameimg1.png",
+      "img":"http://zhengyi.date/plante/src/image/gameimg1.png",
+      "username":"1111111",
+      "isselect":true,
+      "info":"香奈儿 五号淡香水EDT 50ml 5号女士持久香水 圣诞礼物 情人节礼物",
+      "discount_msg":"平时价￥1500,已享受",
+      "discount_state":"限时降价",
+      "goods_num":"10盒",
+      "price":200,
+      "isfreight":false,
+      "freight":10,
+      "num":1,
+      "isleftswipe":false
+    }
+  ]
+}

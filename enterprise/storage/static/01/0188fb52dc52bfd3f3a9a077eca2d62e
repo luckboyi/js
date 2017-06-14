@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="vr,vronline,vr视频,vr资讯,vr助手,vr开发者,大朋,vr资源,vr电影,vr虚拟现实,vr眼镜,steam,vr游戏">
+    <meta name="description" content="VRonline是一家集vr资讯、vr视频、vr资源、vr游戏为一体的综合性VR门户网站，您可以在这里获得最专业的vr资讯、最新的vr视频资源、最全的vr游戏下载。">
+    <title>VRonline - vr虚拟现实第一门户网站 - VRonline.com</title>
+    <link rel="stylesheet" href="//pic.vronline.com/news/min/style/wap.min.css?67">
+     </head>
+<body>
+    <!--广告位-->
+    <div></div>
+    <!--头部-->
+    <div class="head" >
+        <div class="pr clearfix">
+            <a class="fl" href="javascript:;"><i class="logo"></i></a>
+            <ul class="fl">
+                <li class="fl"><a href="//www.vronline.com/">首页</a></li>
+                <li class="fl zx">
+                    <a href="//www.vronline.com/news/list/0">资讯<i class="zixun"></i></a>
+                    <div class="list_con clearfix">
+                        <a  class="fl" href="/news/list/2">产业</a>
+<a  class="fl" href="/news/list/3">厂商</a>
+<a  class="fl" href="/news/list/4">专访</a>
+<a  class="fl" href="/news/list/5">技术</a>
+                    </div>
+                </li>
+                <li class="fl"><a href="//www.vronline.com/news/list/6">游戏</a></li>
+                <li class="fl"><a href="//www.vronline.com/news/list/7">视频</a></li>
+                <li class="fl"><a href="https://open.vronline.com" target="_blank">开发者</a></li>
+                <li class="fl"><a href="//www.vronline.com/vronline" target="_blank">VR助手</a></li>
+                <!-- <li class="fl"><a href="#" target="_blank">客服中心</a></li> -->
+            </ul>
+            <div class="fr head_right clearfix">
+                <a class="fl pr wx_hover">
+                    <i class="weixin"></i>
+                    <p class="code_bg wx_code_bg">
+                        <img src="//pic.vronline.com/news/images/VRonline_platform.jpg?67">
+                        <img src="//pic.vronline.com/news/images/VRonline_game.jpg?67">
+                    </p>
+                </a>
+                <a class="fl pr wb_hover">
+                    <i class="weibo"></i>
+                    <p class="code_bg wb">
+                        <img src="//pic.vronline.com/news/images/sina.png?67">
+                    </p>
+                </a>
+            </div>
+        </div>
+    </div>
+     <div class="con">
+    <div class="clearfix">
+        <!--左侧新闻-->
+        <div class="fl con_left">
+            <ul class="headlines">
+                                                                <li>
+                    <a class="big_title ells" href="/news/detail/.html" target="_blank"></a>
+                                        <div class="clearfix">
+                        <a class="fl ells" href="/news/detail/.html" target="_blank"></a>
+                                                <a class="fr ells" href="/news/detail/.html" target="_blank"></a>
+                                            </div>
+                                    </li>
+                                                                <li>
+                    <a class="big_title ells" href="/news/detail/.html" target="_blank"></a>
+                                        <div class="clearfix">
+                        <a class="fl ells" href="/news/detail/.html" target="_blank"></a>
+                                                <a class="fr ells" href="/news/detail/.html" target="_blank"></a>
+                                            </div>
+                                    </li>
+                                                                <li>
+                    <a class="big_title ells" href="/news/detail/.html" target="_blank"></a>
+                                        <div class="clearfix">
+                        <a class="fl ells" href="/news/detail/.html" target="_blank"></a>
+                                                <a class="fr ells" href="/news/detail/.html" target="_blank"></a>
+                                            </div>
+                                    </li>
+                                                                <li>
+                    <a class="big_title ells" href="/news/detail/.html" target="_blank"></a>
+                                        <div class="clearfix">
+                        <a class="fl ells" href="/news/detail/.html" target="_blank"></a>
+                                                <a class="fr ells" href="/news/detail/.html" target="_blank"></a>
+                                            </div>
+                                    </li>
+                                                            </ul>
+            <ul class="news">
+                                                            </ul>
+        </div>
+        <div class="fr con_right">
+            <!--右侧轮播-->
+            <div class="content" style="width:730px;height:310px; margin-bottom:20px; overflow:hidden;">
+                <div id="slider">
+                                                            <a href="/news/detail/.html" target="_blank">
+                        <img src="https://image.vronline.com/newsimg/10040/534d1cb09f8e43d5055188ea1a0ede0f1481288301135.jpg"/>
+                        <p></p>
+                    </a>
+                                        <a href="/news/detail/.html" target="_blank">
+                        <img src="https://image.vronline.com/newsimg/10040/b28cab57f1828fe4cf5a7b97a79d926d1481288168960.jpg"/>
+                        <p></p>
+                    </a>
+                                                        </div>
+            </div>
+            <div class="clearfix">
+                <div class="fl">
+                    <div class="VR_assistant">
+                        <div class="title clearfix">
+                            <i class="fl title_icon"></i>
+                            <h3 class="fl">VR助手</h3>
+                        </div>
+                        <div class="clearfix VR_assistant_con">
+                            <a class="fl" href="http://www.vronline.com/vronline" target="_blank"><img src="//pic.vronline.com/news/images/vronlin2.png?67"></a>
+                            <div class="fr introduce">
+                                <a class="text"  href="http://www.vronline.com/vronline" target="_blank">市面上最大、最全的VR游戏和VR视频资源的内容平台。独创的3D游戏VR模式，目前支持《魔兽世界》、《守望先锋》等游戏在主流VR设备上体验。</a>
+                                <a class="down" href="http://www.vronline.com/vronline" target="_blank" style="margin-top: 54px">下 载</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hardware">
+                        <div class="title clearfix">
+                            <i class="fl title_icon"></i>
+                            <h3 class="fl">硬件新语</h3>
+                        </div>
+                        <div>
+                                                        <p>
+                                <a class="ells title" href="/news/detail/.html" target="_blank">Athena VR冲锋枪让你体验真实的实战射击123</a>
+                                <span class="ells2"></span>
+                            </p>
+                                                                                    <div class="level_title">
+                                <p class="fl">
+                                    <a class="title ells" href="/news/detail/.html" target="_blank">Kenzan Studios获3415万融资 投入VR研发</a>
+                                    <span class="ells2"></span>
+                                </p>
+                                                                <p class="fr">
+                                    <a class="title ells" href="/news/detail/.html" target="_blank"></a>
+                                    <span class="ells2"></span>
+                                </p>
+                                                            </div>
+                                                    </div>
+                    </div>
+                </div>
+                <div class="fr right_img">
+                    <ul>
+                                                                        <li class="pr">
+                            <a href="2" target="_blank">
+                                <img src="https://image.vronline.com/bannerimg/1209/3bd1fed6f74f1f943812b7838a24d41a.jpg?imageView2/5/w/280/h/116">
+                                <p class="ells"></p>
+                            </a>
+                        </li>
+                                                <li class="pr">
+                            <a href="1" target="_blank">
+                                <img src="https://image.vronline.com/bannerimg/1209/bc5ae9b04c3c40a433437a1b328d99d0.jpg?imageView2/5/w/280/h/116">
+                                <p class="ells"></p>
+                            </a>
+                        </li>
+                                                <li class="pr">
+                            <a href="3" target="_blank">
+                                <img src="https://image.vronline.com/newsimg/10040/7a1a3c8a6a6f68bde309e8fdd0a8145c1481361208832.jpg?imageView2/5/w/280/h/116">
+                                <p class="ells"></p>
+                            </a>
+                        </li>
+                                                                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="index_w_container">
+                            <a href="http://www.vronline.com/3dbb" target="_blank">
+                <img src="https://image.vronline.com/newsimg/1/1949eaddbc620cfe79cc11a231e8cd5a1490684218772.jpg">
+            </a>
+                    </div>
+    <div class="clearfix classify">
+        <div class="fl industry">
+    <div class="title">
+        <h3 class="fl">产业</h3>
+        <a class="fr" href="/news/list/2" target="_blank">更多</a>
+    </div>
+    <div>
+        <ul>
+                                    <li class="clearfix">
+                <a class="fl" href="/news/detail/.html" target="_blank"><img src=""></a>
+                <div class="fr">
+                    <a class=" ells " href="/news/detail/.html" target="_blank"></a>
+                    <p class="ells2"></p>
+                </div>
+            </li>
+                        <li class="clearfix">
+                <a class="fl" href="/news/detail/.html" target="_blank"><img src=""></a>
+                <div class="fr">
+                    <a class=" ells " href="/news/detail/.html" target="_blank"></a>
+                    <p class="ells2"></p>
+                </div>
+            </li>
+                                </ul>
+    </div>
+</div>
+        <div class="fl Manufacturer">
+    <div class="title">
+        <h3 class="fl">厂商</h3>
+        <a class="fr" href="/news/list/3" target="_blank">更多</a>
+    </div>
+    <div class="Manufacturer_con">
+                <div class="clearfix">
+            <a class="fl" href="/news/detail/.html;" target="_blank"><img src=""></a>
+            <div class="fr">
+                <a class="ells2" href="/news/detail/.html" target="_blank"></a>
+                <p class="ells2"></p>
+            </div>
+        </div>
+                        <ul>
+                                    <li>
+                <a class="ells" href="/news/detail/.html" target="_blank"></a>
+                <p class="ells"></p>
+            </li>
+                        <li>
+                <a class="ells" href="/news/detail/.html" target="_blank"></a>
+                <p class="ells"></p>
+            </li>
+                                </ul>
+    </div>
+</div>        <div class="fr people">
+    <div class="title">
+        <h3 class="fl">专访</h3>
+        <a class="fr" href="/news/list/4" target="_blank">更多</a>
+    </div>
+    <div>
+        <ul>
+                                    <li class="clearfix">
+                <a class="fl" href="/news/detail/.html" target="_blank"><img src=""></a>
+                <div class="fr">
+                    <a class=" ells2 " href="/news/detail/.html" target="_blank"></a>
+                    <p class="ells2"></p>
+                </div>
+            </li>
+                        <li class="clearfix">
+                <a class="fl" href="/news/detail/.html" target="_blank"><img src=""></a>
+                <div class="fr">
+                    <a class=" ells2 " href="/news/detail/.html" target="_blank"></a>
+                    <p class="ells2"></p>
+                </div>
+            </li>
+                                </ul>
+    </div>
+</div>
+    </div>
+    <div class="clearfix classify">
+        <div class="fl industry">
+    <div class="title">
+        <h3 class="fl">技术</h3>
+        <a class="fr" href="/news/list/5" target="_blank">更多</a>
+    </div>
+    <div>
+        <ul>
+                                    <li class="clearfix">
+                <a class="fl" href="/news/detail/.html" target="_blank"><img src=""></a>
+                <div class="fr">
+                    <a class=" ells " href="/news/detail/.html" target="_blank"></a>
+                    <p class="ells2"></p>
+                </div>
+            </li>
+                        <li class="clearfix">
+                <a class="fl" href="/news/detail/.html" target="_blank"><img src=""></a>
+                <div class="fr">
+                    <a class=" ells " href="/news/detail/.html" target="_blank"></a>
+                    <p class="ells2"></p>
+                </div>
+            </li>
+                        <li class="clearfix">
+                <a class="fl" href="/news/detail/.html" target="_blank"><img src=""></a>
+                <div class="fr">
+                    <a class=" ells " href="/news/detail/.html" target="_blank"></a>
+                    <p class="ells2"></p>
+                </div>
+            </li>
+                                </ul>
+    </div>
+</div>
+        <div class="fl Manufacturer games">
+    <div class="title">
+        <h3 class="fl">游戏</h3>
+        <a class="fr" href="/news/list/6" target="_blank">更多</a>
+    </div>
+    <div class="Manufacturer_con">
+                <div class="clearfix">
+            <a class="fl" href="/news/detail/.html;" target="_blank"><img src=""></a>
+            <div class="fr">
+                <a class="ells2" href="/news/detail/.html" target="_blank"></a>
+                <p class="ells2"></p>
+            </div>
+        </div>
+                        <ul>
+                                    <li>
+                <a class="ells" href="/news/detail/.html" target="_blank"></a>
+                <p class="ells"></p>
+            </li>
+                        <li>
+                <a class="ells" href="/news/detail/.html" target="_blank"></a>
+                <p class="ells"></p>
+            </li>
+                        <li>
+                <a class="ells" href="/news/detail/.html" target="_blank"></a>
+                <p class="ells"></p>
+            </li>
+                        <li>
+                <a class="ells" href="/news/detail/.html" target="_blank"></a>
+                <p class="ells"></p>
+            </li>
+                                </ul>
+    </div>
+</div>        <div class="fr popular_recommende">
+    <div class="title">
+        <h3 class="fl">热门推荐</h3>
+        <div class="clearfix fr detail-top">
+            <a class="fl cur" href="javascript:;" id="detail-top-news"><span>新闻</span>/</a>
+            <a class="fl" id="detail-top-game" href="javascript:;"><span>游戏</span>/</a>
+            <a class="fl" id="detail-top-video" href="javascript:;"><span>视频</span></a>
+        </div>
+    </div>
+                        <div class="recommende_con detail-top-news_hot  cur showB ">
+                <ul>
+                                                                        <li>
+                                <a href="/news/detail/83.html">
+                                    <div class=" conceal  clearfix">
+                                        <span class="fl ranking  ranking_good ">1</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite  shows ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/86.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">2</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/84.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">3</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/90.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">4</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/77.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">5</span>
+                                        <span class="fl ells ranking_con">谷歌的移动VR标准会成为白日梦吗?</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="https://image.vronline.com/newsimg/10040/8587dc7b26d4ec583636ddc26196885f1481253234838.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">谷歌的移动VR标准会成为白日梦吗?</span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/76.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">6</span>
+                                        <span class="fl ells ranking_con">英特尔寻求转型 虚拟现实是重点发力对象</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="https://image.vronline.com/newsimg/10040/7a1a3c8a6a6f68bde309e8fdd0a8145c1481253188705.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">英特尔寻求转型 虚拟现实是重点发力对象</span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/75.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">7</span>
+                                        <span class="fl ells ranking_con">Oculus公布360度追踪和房间尺度安装方法 按照Oculus之前的规划，OculusTouch于12月6</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="https://image.vronline.com/newsimg/10040/355b3567eaf4b0e3fc2213ece63e885b1481253145973.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">Oculus公布360度追踪和房间尺度安装方法 按照Oculus之前的规划，OculusTouch于12月6</span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                            </ul>
+            </div>
+                    <div class="recommende_con detail-top-game_hot  cur hideB ">
+                <ul>
+                                                                        <li>
+                                <a href="/news/detail/94.html">
+                                    <div class=" conceal  clearfix">
+                                        <span class="fl ranking  ranking_good ">1</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite  shows ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/93.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">2</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/75.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">3</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/80.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">4</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/87.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">5</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/88.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">6</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/89.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">7</span>
+                                        <span class="fl ells ranking_con">登陆PSVR 最新发售预告公布</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="https://image.vronline.com/newsimg/10040/207a59a9e902b78e93b21388a1c839291481265908261.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">登陆PSVR 最新发售预告公布</span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                            </ul>
+            </div>
+                    <div class="recommende_con detail-top-video_hot  cur hideB ">
+                <ul>
+                                                                        <li>
+                                <a href="/news/detail/209.html">
+                                    <div class=" conceal  clearfix">
+                                        <span class="fl ranking  ranking_good ">1</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite  shows ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/77.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">2</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/226.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking  ranking_good ">3</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/181.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">4</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/192.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">5</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/104.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">6</span>
+                                        <span class="fl ells ranking_con"></span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2"></span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                    <li>
+                                <a href="/news/detail/92.html">
+                                    <div class=" clearfix">
+                                        <span class="fl ranking ">7</span>
+                                        <span class="fl ells ranking_con">拍洋画片已经过时 现在孩子都玩虚拟卡片了</span>
+                                    </div>
+                                    <div class="clearfix bewrite ">
+                                        <span class="ells2 fl">
+                                            <img src="https://image.vronline.com/newsimg/10040/355b3567eaf4b0e3fc2213ece63e885b1481275493426.jpg?imageView2/5/w/133/h/99" style="width: 133px; height:99px;">
+                                        </span>
+                                        <div class="fr">
+                                            <span class="ells2">拍洋画片已经过时 现在孩子都玩虚拟卡片了</span>
+                                            <p class="ells2"></p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                                                            </ul>
+            </div>
+            </div>
+    </div>
+    <div class="recommend_video">
+        <div class="title clearfix">
+            <h3 class="fl">推荐视频</h3>
+            <a class="fr" href="/news/list/7" target="_blank">更多</a>
+        </div>
+        <div>
+            <ul class="clearfix">
+                                                <li class="fl pr">
+                    <a href="/news/detail/.html" target="_blank">
+                        <img src="" />
+                        <p class="play"></p>
+                        <p class="mask"></p>
+                        <p class="describe"></p>
+                    </a>
+                </li>
+                                <li class="fl pr">
+                    <a href="/news/detail/.html" target="_blank">
+                        <img src="" />
+                        <p class="play"></p>
+                        <p class="mask"></p>
+                        <p class="describe"></p>
+                    </a>
+                </li>
+                                <li class="fl pr">
+                    <a href="/news/detail/.html" target="_blank">
+                        <img src="" />
+                        <p class="play"></p>
+                        <p class="mask"></p>
+                        <p class="describe"></p>
+                    </a>
+                </li>
+                                            </ul>
+        </div>
+    </div>
+</div>
+    <!-- <div class="friend_link">
+        <div class="title clearfix">
+            <h3 class="fl">友情链接</h3>
+        </div>
+    </div> -->
+    <div class="foot">
+        <div class="VR_foot">
+            <!-- <div class="aboutUS">
+            <a href="http://www.kingnet.com" target="_blank">关于VRonline</a>
+            <a  href="http://www.kingnet.com" target="_blank">关于恺英</a>
+            </div> -->
+            <div class="aboutUS">
+                <a href="http://www.vronline.com/vronline" target="_blank">关于VR助手</a>
+                <a href="http://www.kingnet.com" target="_blank">关于恺英</a>
+                <a href="//www.vronline.com/contact" target="_blank">商务合作</a>
+                <a href="https://open.vronline.com" target="_blank">我是开发者</a>
+                <a href="//www.vronline.com/parent_intro" target="_blank">家长监护</a>
+                <a href="http://developer.deepoon.com/" target="_blank">大朋开发者</a>
+                <a href="//www.vronline.com/customer/service" target="_blank">客服中心</a>
+            </div>
+            <p>VRonline平台：适合12岁及以上成年人游戏，建议游戏者适当游戏。</p>
+            <p>抵制不良游戏，拒绝盗版游戏，注意自我保护，谨防受骗上当；适度游戏益脑，沉迷游戏伤身，合理安排时间，享受健康生活！</p>
+            </br>
+            <div class="police">
+            <a class="clearfix" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011202001649">
+                <img class="fl" src="//pic.vronline.com/website/images/pl.png?67" />
+                <p class="fl">沪公网安备 31011202001649号</p>
+            </a>
+            </div>
+            <p>
+            <span>沪网文[2016] 2600-152号</span>
+            <span>沪ICP备10215773号-37</span>&nbsp;&nbsp;<span>沪IAS备201703010012</span>
+            <span>文化部网络游戏举报和联系电子邮箱:</span>
+            <a href="Mailto:wlyxjb@gmail.com">wlyxjb@gmail.com</a>
+            </p>
+            <p>
+            <span>Copyright&copy;2008-2015 vronline.com All Rights Reserved</span>
+            <span>上海恺英网络科技有限公司 版权所有</span>
+            </p>
+            <p>
+                <span>上海陈行路2388号浦江科技广场3号3F&nbsp;
+&nbsp;
+&nbsp;
+</span>
+                <span>客服电话：021-54310366-8065</span>
+            </p>
+        </div>
+    </div>
+    <script src="//pic.vronline.com/common/js/jquery-1.12.3.min.js?67"></script>
+    <script src="//pic.vronline.com/news/js/index.bottom.js?67"></script>
+    <script src="//pic.vronline.com/news/min/js/vmc.slider.full.js"></script>
+<!--轮播-->
+<script type="text/javascript">
+    $(function() {
+        $('#slider').vmcSlider({
+            width: 730,
+            height: 310,
+            gridCol: 10,
+            gridRow: 5,
+            gridVertical: 20,
+            gridHorizontal: 10,
+            autoPlay: true,
+            ascending: true,
+            effects: [
+                'fade', 'fadeLeft', 'fadeRight', 'fadeTop', 'fadeBottom', 'fadeTopLeft', 'fadeBottomRight',
+                'blindsLeft', 'blindsRight', 'blindsTop', 'blindsBottom', 'blindsTopLeft', 'blindsBottomRight',
+                'curtainLeft', 'curtainRight', 'interlaceLeft', 'interlaceRight', 'mosaic', 'bomb', 'fumes'
+            ],
+            ie6Tidy: false,
+            random: false,
+            duration: 2000,
+            speed: 900
+        });
+    });
+</script>
+</body>
+</html>
+<script>
+        //百度统计代码
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?f908059df69511e714bd4bdaf91bcd93";
+          var s = document.getElementsByTagName("script")[0];
+          s.parentNode.insertBefore(hm, s);
+        })();
+    </script>

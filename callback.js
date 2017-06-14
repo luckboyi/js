@@ -2,7 +2,7 @@
 * @Author: zhengy
 * @Date:   2017-06-05 16:25:05
 * @Last Modified by:   zhengy
-* @Last Modified time: 2017-06-05 16:25:17
+* @Last Modified time: 2017-06-05 17:06:04
 */
 
 'use strict';
@@ -13,8 +13,8 @@ function a(callback){
 		callback();
 	}
 }
-function c(){
-	alert(1)
+function c(i){
+	alert(i)
 }
 
-a(c)
+a(c(2))

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>图片上传</title>
+    </head>
+    <style type="text/css">
+	.preview_box img{width: 200px;}
+    </style>
+    <body>
+    <input type="file" id="img_input">
+    <label for="img_input"></label>
+ 	<div class="preview_box"></div>
+    </body>
+</html>
+<script type="text/javascript" src="http://pic.vronline.com/common/js/jquery-1.12.3.min.js"> </script>
+<script type="text/javascript">
+	$(function() {
+		// body...
+		$('#img_input').on('change',function(e){
+			var file = e.target.files[0]; //获取图片资源
+			console.log(file);
+			//只选取图片
+			if(!file.type.match('image.*')){
+				return false ;
+			}
+			var reader = new FileReader();
+			reader.readAsDataURL(file);//读取文件
+			//渲染文件
+			reader.onload = function(arg){
+				var img = '<img class = "preview" src="'+arg.target.result+'"/>';
+				$('.preview_box').empty().append(img);
+			};
+			//上传服务器
+			var form_data  = new FormData();
+			var file_data = $('#img_input').prop('files')[0];
+			//把上传的数据放入form——data;
+			form_data.append('user','Mike');
+			form_data.append('img',file_data);
+		});
+
+	})
+</script>

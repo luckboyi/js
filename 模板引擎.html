@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>	模板引擎</title>
+    </head>
+    <body>
+    <div class="id" id="test"></div>
+    </body>
+</html>
+<script>
+	var TemplateEngine = function(html, options) {
+	    var re = /<%([^%>]+)?%>/g, reExp = /(^( )?(if|for|else|switch|case|break|{|}))(.*)?/g, code = 'var r=[];\n', cursor = 0;
+	    var add = function(line, js) {
+	        js? (code += line.match(reExp) ? line + '\n' : 'r.push(' + line + ');\n') :
+	            (code += line != '' ? 'r.push("' + line.replace(/"/g, '\\"') + '");\n' : '');
+	        return add;
+	    }
+	    while(match = re.exec(html)) {
+	        add(html.slice(cursor, match.index))(match[1], true);
+	        cursor = match.index + match[0].length;
+	    }
+	    add(html.substr(cursor, html.length - cursor));
+	    code += 'return r.join("");';
+	    return new Function(code.replace(/[\r\t\n]/g, '')).apply(options);
+	}
+	var template =
+	'My skills:' +
+	'<%if(this.showSkills) {%>' +
+	    '<%for(var index in this.skills) {%>' +
+	    '<a href="#"><%this.skills[index]%></a>' +
+	    '<%}%>' +
+	'<%} else {%>' +
+	    '<p>none</p>' +
+	'<%}%>';
+	var t = TemplateEngine(template, {
+	    skills: ["js", "html", "css"],
+	    showSkills: true
+	});
+	console.log(t)
+	window.onload = function(){
+		//console.log(1)
+		document.getElementById('test').innerHTML = t;
+	}
+	
+</script>
